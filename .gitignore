@@ -11,5 +11,6 @@
 
 /_site/
 /css/
+!/js/
 /.sass-cache/
 /.vagrant/
