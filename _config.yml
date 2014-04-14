@@ -1,0 +1,21 @@
+name: "TAKAO ROCK FES. 2014"
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- deploy_key
+- deploy_key.pub
+- deploy_key.enc
+- /.sass-cache/
+- /.vagrant/
+- /.compass/
+- .travis.yml
+include:
+- .nojekyll
+timezone: Asia/Tokyo
+markdown: kramdown
+paginate: 5
+relative_permalinks: false
+gems:
+- jekyll-compass
+- jekyll-coffeescript
