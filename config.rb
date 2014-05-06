@@ -1,4 +1,6 @@
 Time.zone = "Tokyo"
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true, tables: trune, smartypants: true
 
 ###
 # Compass
