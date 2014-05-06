@@ -1,3 +1,5 @@
+Time.zone = "Tokyo"
+
 ###
 # Compass
 ###
