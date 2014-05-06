@@ -3,6 +3,7 @@ set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, tables: true, smartypants: true
 activate :i18n, :path => "/:locale/", :mount_at_root => :ja
 set :relative_links, true
+set :slim, :pretty => true, :sort_attrs => false, :format => :html5
 
 ###
 # Compass
