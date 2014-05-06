@@ -3,14 +3,10 @@
 
 !/Gemfile
 /Gemfile.lock
-!/.compass/
 !/.travis.yml
 /deploy_key
 /deploy_key.pub
 !/deploy_key.enc
 
-/_site/
-/css/
-!/js/
 /.sass-cache/
 /.vagrant/
