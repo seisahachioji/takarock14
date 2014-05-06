@@ -10,3 +10,4 @@
 
 /.sass-cache/
 /.vagrant/
+!/.bundle/config
