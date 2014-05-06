@@ -1,16 +1,23 @@
+/.bundle
+!/.bundle/config
+/.sass-cache
+/.cache
+/.vagrant
+
+.DS_Store
+Thumbs.db
 !/.nojekyll
 !/.gitattributes
 
-!/Gemfile
-/Gemfile.lock
-!/.compass/
-!/.travis.yml
 /deploy_key
 /deploy_key.pub
 !/deploy_key.enc
 
-/_site/
-/css/
-!/js/
-/.sass-cache/
-/.vagrant/
+!/.travis.yml
+!/Gemfile
+/Gemfile.lock
+!/bower.json
+!/.bowerrc
+
+!/source
+/build

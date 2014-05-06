@@ -1,0 +1,12 @@
+{
+  "name": "takarock14",
+  "version": "0.0.0",
+  "homepage": "https://github.com/seisahachioji/takarock14",
+  "authors": [
+    "Shuma Yoshioka <s64.stdio@gmail.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "foundation": "zurb/bower-foundation#~5.2.2"
+  }
+}
