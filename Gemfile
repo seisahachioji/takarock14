@@ -1,2 +1,3 @@
 source 'https://rubygems.org'
-gem 'kramdown'
+gem "middleman"
+gem "redcarpet"
