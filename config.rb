@@ -1,6 +1,6 @@
 Time.zone = "Tokyo"
 set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, tables: trune, smartypants: true
+set :markdown, fenced_code_blocks: true, tables: true, smartypants: true
 
 ###
 # Compass
@@ -77,4 +77,5 @@ end
 
 after_configuration do
   sprockets.append_path '../vendor/bower_components/foundation/scss'
+  sprockets.append_path '../vendor/bower_components/'
 end
