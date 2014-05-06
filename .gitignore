@@ -8,12 +8,16 @@
 Thumbs.db
 !/.nojekyll
 !/.gitattributes
-!/Gemfile
-/Gemfile.lock
-!/.travis.yml
+
 /deploy_key
 /deploy_key.pub
 !/deploy_key.enc
+
+!/.travis.yml
+!/Gemfile
+/Gemfile.lock
+!/bower.json
+!/.bowerrc
 
 !/source
 /build
