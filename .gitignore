@@ -1,6 +1,13 @@
+/.bundle
+!/.bundle/config
+/.sass-cache
+/.cache
+/.vagrant
+
+.DS_Store
+Thumbs.db
 !/.nojekyll
 !/.gitattributes
-
 !/Gemfile
 /Gemfile.lock
 !/.travis.yml
@@ -8,6 +15,5 @@
 /deploy_key.pub
 !/deploy_key.enc
 
-/.sass-cache/
-/.vagrant/
-!/.bundle/config
+!/source
+/build
