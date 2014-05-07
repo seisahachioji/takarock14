@@ -1,0 +1,14 @@
+//@import 'foundation';
+@import 'compass';
+
+$susy: (
+  column-width: 20px,
+  columns: 48,
+  gutters: 1/4,
+  math: static,
+  container-position: center,
+  gutter-position: split,
+  global-box-sizing: content-box
+);
+
+@import 'susy';

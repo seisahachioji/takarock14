@@ -1,0 +1,13 @@
+nav#nav
+  ul.container
+    - data.conf.nav.items.each do |item|
+      li.item
+        a.container href=url_for(item.href, :relative => true)
+          - if !item.type || item.type == 'item'
+            span.text
+              = item.name
+          - elsif item.type == 'logo'
+            strong.text
+              = data.conf.title
+            span.icon.logo
+              img src=url_for('/images/seisa.notext.w.png', :relative => true)

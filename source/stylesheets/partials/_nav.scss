@@ -1,0 +1,53 @@
+$nav-height: span(3);
+$nav-color: #fff;
+$nav-background-color: #333;
+
+& {
+  ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  li {
+    display:block;
+    text-align:initial;
+  }
+  >.container {
+    height:$nav-height;
+    @include container;
+  }
+  .item {
+    $span:(map-get($susy,columns) / 8);
+    @include span(6);
+    >.container {
+      display:block;
+      height:$nav-height;
+    }
+    .text {
+      display:block;
+      line-height:$nav-height;
+      text-align:center;
+    }
+    strong.text {
+      display:none;
+    }
+    .icon {
+      display:block;
+      background-position:center center;
+      @include background-size(contain);
+      background-repeat:no-repeat;
+      height:$nav-height;
+      img {
+        display:none;
+      }
+    }
+    .icon.logo {
+      background-image:url('../images/seisa.notext.w.png');
+    }
+  }
+}
+
+& {
+  color:$nav-color;
+  background-color:$nav-background-color;
+}
