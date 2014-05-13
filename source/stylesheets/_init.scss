@@ -1,14 +1,35 @@
-//@import 'foundation';
+@charset 'UTF-8';
 @import 'compass';
 
 $susy: (
-  column-width: 20px,
+  column-width: 24px,
   columns: 48,
   gutters: 1/4,
   math: static,
   container-position: center,
   gutter-position: split,
-  global-box-sizing: content-box
+  global-box-sizing: content-box,
+  debug: (
+    image: show,
+    color: rgba(255,0,0,.25),
+    output: overlay,
+    toggle: top right
+  )
 );
 
+$rhythm-unit:                 'rem';
+$relative-font-sizing:        false;
+$rem-width-px-fallback:       true;
+$default-transition-duration: .25s;
+
 @import 'susy';
+
+$default-box-shadow-h-offset: 0;
+$default-box-shadow-v-offset: 1px;
+$default-box-shadow-blur:     3px;
+$default-box-shadow-color:    fade(#000,12.5%);
+
+$default-text-shadow-h-offset: $default-box-shadow-h-offset;
+$default-text-shadow-v-offset: $default-box-shadow-v-offset;
+$default-text-shadow-blur:     $default-box-shadow-blur;
+$default-text-shadow-color     $default-box-shadow-color;
