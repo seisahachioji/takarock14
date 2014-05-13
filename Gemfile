@@ -15,6 +15,8 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem "redcarpet"
 gem "middleman-slim"
-gem "sass"
-gem "compass"
+gem "sass", "<= 3.3.7", ">= 3.3.0"
+gem "compass", "<= 1.0.0", ">= 1.0.0.alpha.19"
 gem "susy"
+gem "middleman-blog"
+gem "nokogiri"
