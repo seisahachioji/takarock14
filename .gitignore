@@ -1,13 +1,13 @@
-/.bundle
+/.bundle/*
 !/.bundle/config
+
 /.sass-cache
 /.cache
 /.vagrant
-
 .DS_Store
 Thumbs.db
-!/.nojekyll
-!/.gitattributes
+
+!.nojekyll
 
 /deploy_key
 /deploy_key.pub
@@ -16,6 +16,7 @@ Thumbs.db
 !/.travis.yml
 !/Gemfile
 /Gemfile.lock
+
 !/bower.json
 !/.bowerrc
 
