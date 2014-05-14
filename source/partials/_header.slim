@@ -1,2 +1,9 @@
+- title = data.conf.title
+- if defined? hdata
+  - if hdata.title
+    title = hdata.title
 header#header
   div.container
+    div.background
+    h1
+      = title

@@ -1,5 +1,6 @@
-$nav-height: span(3);
-$nav-color: #fff;
+$nav-rhythm:    3;
+$nav-font-size: 1.25rem;
+$nav-color:     #fff;
 $nav-background-color: #333;
 
 & {
@@ -13,7 +14,7 @@ $nav-background-color: #333;
     text-align:initial;
   }
   >.container {
-    height:$nav-height;
+    //height:$nav-height;
     @include container;
   }
   .item {
@@ -21,12 +22,16 @@ $nav-background-color: #333;
     @include span(6);
     >.container {
       display:block;
-      height:$nav-height;
+      //height:$nav-height;
     }
     .text {
       display:block;
-      line-height:$nav-height;
+      //line-height:$nav-height;
       text-align:center;
+      @include adjust-font-size-to($nav-font-size);
+      $rhythm: $nav-rhythm - 1;
+      @include leader($rhythm / 2);
+      @include trailer($rhythm / 2);
     }
     strong.text {
       display:none;
@@ -36,7 +41,8 @@ $nav-background-color: #333;
       background-position:center center;
       @include background-size(contain);
       background-repeat:no-repeat;
-      height:$nav-height;
+      //height:$nav-height;
+      height:rhythm($nav-rhythm);
       img {
         display:none;
       }
