@@ -1,0 +1,8 @@
+nav:
+  items:
+    - text: "GitHub"
+      href: "https://github.com/seisahachioji/takarock14"
+    - text: "校舎概要"
+      href: "http://example.com/"
+    - text: "学校概要"
+      href: "http://example.com/"

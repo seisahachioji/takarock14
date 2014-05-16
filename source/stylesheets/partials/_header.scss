@@ -1,4 +1,4 @@
-$background-color:#333;
+$background-color:$header-background-color;
 $color:#fff;
 $font-size:1.5rem;
 $header-rhythm:3;
@@ -6,18 +6,36 @@ $header-rhythm:3;
 & {
   color:$color;
   background-color:$background-color;
+  z-index:$header-z-index;
+  overflow:hidden;
   >.container {
     position:relative;
+    @include gpu-acceleration;
+  }
+  .content {
+    position:relative;
+    z-index:$header-content-z-index;
+    @include container;
+  }
+  .background {
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    background-position:center center;
+    @include background-size(cover);
+    z-index:$header-background-z-index;
+    
+    $blur:5px;
+    @include filter( blur($blur) );
+    margin:-($blur);
   }
   h1 {
+    $font-size:2rem;
     @include adjust-font-size-to($font-size);
     $rhythm:$header-rhythm - 1;
     @include padding-leader($rhythm,$font-size);
     @include padding-trailer($rhythm,$font-size);
     margin:0;
-  }
-  .background {
-    position:absolute;
-    top:0;left:0;right:0;bottom:0;
+    
+    @include gutter;
   }
 }

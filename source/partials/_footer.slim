@@ -1,0 +1,15 @@
+footer#footer
+  div.container
+    div.columns
+      div.left
+        nav#footer_nav
+          ul
+            - data.footer.nav.items.each do |item|
+              li.item
+                a href=item.href
+                  span.text
+                    = item.text
+      div.right
+        
+    div.bottom
+      | &copy; 2014 星槎国際高等学校 八王子学習センター プランニングゼミ

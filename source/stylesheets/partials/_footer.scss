@@ -1,0 +1,32 @@
+& {
+  & {
+    background-color:$footer-background-color;
+    color:$footer-color;
+    @include adjust-font-size-to($footer-font-size);
+  }
+  >.container {
+    >.columns {
+      @include container;
+      @include reset-list;
+      >.left,
+      >.right {
+        height:rhythm(5);
+      }
+      >.left {
+        @include span(40 of 48);
+        li {
+          display:inline-block;
+        }
+      }
+      >.right {
+        @include span(8 of 48);
+      }
+    }
+    >.bottom {
+      text-align:center;
+      @include adjust-font-size-to($footer-font-size);
+      @include padding-leader(1,$footer-font-size);
+      @include padding-trailer(1,$footer-font-size);
+    }
+  }
+}

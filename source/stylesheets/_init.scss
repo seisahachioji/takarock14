@@ -33,3 +33,24 @@ $default-text-shadow-h-offset: $default-box-shadow-h-offset;
 $default-text-shadow-v-offset: $default-box-shadow-v-offset;
 $default-text-shadow-blur:     $default-box-shadow-blur;
 $default-text-shadow-color:    $default-box-shadow-color;
+
+$footer-font-size:.9rem;
+
+@import 'colors';
+@import 'z_index';
+
+@mixin gpu-acceleration {  
+  @include transform3d( translate3d(0,0,0) );
+}
+
+@mixin reset-list {
+  ul,ol {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    li {
+      display:block;
+      text-align:inherit;
+    }
+  }
+}
