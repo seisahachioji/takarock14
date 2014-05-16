@@ -11,6 +11,8 @@
       >.left,
       >.right {
         height:rhythm(5);
+        @include padding-leader(1,$footer-font-size);
+        @include padding-trailer(1,$footer-font-size);
       }
       >.left {
         @include span(40 of 48);
@@ -20,6 +22,31 @@
       }
       >.right {
         @include span(8 of 48);
+        .item {
+          /*
+          &:not(:first-child) {
+            @include leader(1,$footer-font-size);
+          }
+          */
+          &:not(:last-child) {
+            @include trailer(1,$footer-font-size);
+          }
+          >a {
+            display:block;
+          }
+          .image {
+            display:block;
+            background-position:center center;
+            @include background-size(contain);
+            background-repeat:no-repeat;
+            height:rhythm(2);
+            //background-color:#fff;
+            @include filter( grayscale(100%) invert(100%) );
+            img {
+              display:none;
+            }
+          }
+        }
       }
     }
     >.bottom {

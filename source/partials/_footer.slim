@@ -10,6 +10,13 @@ footer#footer
                   span.text
                     = item.text
       div.right
-        
+        div#footer_link
+          ul
+            - data.footer.link.items.each do |item|
+              - style = "background-image:url(" + item.banner + ");";
+              li.item
+                a href=item.href
+                  span.image style=style
+                    img src=item.banner
     div.bottom
       | &copy; 2014 星槎国際高等学校 八王子学習センター プランニングゼミ

@@ -6,3 +6,11 @@ nav:
       href: "http://example.com/"
     - text: "学校概要"
       href: "http://example.com/"
+link:
+  items:
+    - banner: "http://www.seisa.ed.jp/hachi/images/skk_logo1.png"
+      href: "http://www.seisa.ed.jp/hachi/"
+    - banner: "http://www.seisa.ed.jp/tach/images/skk_logo1.png"
+      href: "http://www.seisa.ed.jp/tach/"
+#    - banner: "http://www.seisa.ed.jp/takao/images/title_logo2.png"
+#      href: "http://www.seisa.ed.jp/takao/"
