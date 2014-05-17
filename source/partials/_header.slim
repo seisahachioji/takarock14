@@ -1,7 +1,9 @@
 - title = data.conf.title
 - if defined? hdata
   - if hdata.title
-    title = hdata.title
+    - title = hdata.title
+- elsif current_page.data.title
+  - title = current_page.data.title
 header#header
   div.container
     div.background style="background-image:url(http://www.seisa.ed.jp/takao/takarock13/img/IMGP2505.fixed.JPG);"
