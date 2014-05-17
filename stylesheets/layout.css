@@ -265,7 +265,7 @@ a {
     #footer > .container > .columns ul li, #footer > .container > .columns ol li {
       display: block;
       text-align: inherit; }
-  /* line 16, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+  /* line 18, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
   #footer > .container > .columns > .left,
   #footer > .container > .columns > .right {
     height: 7.5rem;
@@ -283,9 +283,21 @@ a {
     margin-right: 3px;
     margin-right: 0.1875rem; }
     /* line 26, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+    #footer > .container > .columns > .left #footer_nav {
+      padding-top: 48px;
+      padding-top: 3rem;
+      padding-bottom: 48px;
+      padding-bottom: 3rem; }
+    /* line 31, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
     #footer > .container > .columns > .left li {
       display: inline-block; }
-  /* line 30, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      /* line 34, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      #footer > .container > .columns > .left li:not(:first-child) {
+        padding-left: 0.45rem; }
+      /* line 37, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      #footer > .container > .columns > .left li:not(:last-child) {
+        padding-right: 0.45rem; }
+  /* line 42, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
   #footer > .container > .columns > .right {
     width: 234px;
     width: 14.625rem;
@@ -294,21 +306,21 @@ a {
     margin-left: 0.1875rem;
     margin-right: 3px;
     margin-right: 0.1875rem; }
-    /* line 32, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+    /* line 44, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
     #footer > .container > .columns > .right .item {
       /*
       &:not(:first-child) {
         @include leader(1,$footer-font-size);
       }
       */ }
-      /* line 38, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      /* line 50, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
       #footer > .container > .columns > .right .item:not(:last-child) {
         margin-bottom: 24px;
         margin-bottom: 1.5rem; }
-      /* line 41, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      /* line 53, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
       #footer > .container > .columns > .right .item > a {
         display: block; }
-      /* line 44, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      /* line 56, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
       #footer > .container > .columns > .right .item .image {
         display: block;
         background-position: center center;
@@ -320,10 +332,10 @@ a {
         height: 3rem;
         -webkit-filter: grayscale(100%) invert(100%);
         filter: grayscale(100%) invert(100%); }
-        /* line 52, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+        /* line 64, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
         #footer > .container > .columns > .right .item .image img {
           display: none; }
-/* line 59, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+/* line 71, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
 #footer > .container > .bottom {
   text-align: center;
   font-size: 14px;
