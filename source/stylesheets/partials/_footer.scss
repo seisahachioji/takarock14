@@ -13,18 +13,30 @@
     >.columns {
       @include container;
       @include reset-list;
+      $column-padding:1;
+      $footer-column-real-rhythm:$footer-column-rhythm - ($column-padding * 2);
       >.left,
       >.right {
-        $padding:1;
-        $rhythm:$footer-column-rhythm - ($padding * 2);
-        height:rhythm($rhythm);
-        @include padding-leader($padding,$footer-font-size);
-        @include padding-trailer($padding,$footer-font-size);
+        height:rhythm($footer-column-real-rhythm);
+        @include padding-leader($column-padding,$footer-font-size);
+        @include padding-trailer($column-padding,$footer-font-size);
       }
       >.left {
         @include span(40 of 48);
+        #footer_nav {
+          $padding:($footer-column-real-rhythm - 1) / 2;
+          @include padding-leader($padding,$footer-font-size);
+          @include padding-trailer($padding,$footer-font-size);
+        }
         li {
           display:inline-block;
+          $padding:$footer-font-size / 2;
+          &:not(:first-child) {
+            padding-left:$padding;
+          }
+          &:not(:last-child) {
+            padding-right:$padding;
+          }
         }
       }
       >.right {
