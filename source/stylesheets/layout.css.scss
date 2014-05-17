@@ -32,6 +32,9 @@ a {
 #nav {
   @import 'partials/nav';
 }
+#main {
+  padding-bottom:rhythm($footer-rhythm,$footer-font-size);
+}
 #footer {
   @import 'partials/footer';
 }

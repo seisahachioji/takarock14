@@ -3,6 +3,11 @@
     background-color:$footer-background-color;
     color:$footer-color;
     @include adjust-font-size-to($footer-font-size);
+    height:rhythm($footer-rhythm);
+    overflow:hidden;
+    position:absolute;
+    top:auto;
+    left:0;right:0;bottom:0;
   }
   >.container {
     >.columns {
@@ -10,9 +15,11 @@
       @include reset-list;
       >.left,
       >.right {
-        height:rhythm(5);
-        @include padding-leader(1,$footer-font-size);
-        @include padding-trailer(1,$footer-font-size);
+        $padding:1;
+        $rhythm:$footer-column-rhythm - ($padding * 2);
+        height:rhythm($rhythm);
+        @include padding-leader($padding,$footer-font-size);
+        @include padding-trailer($padding,$footer-font-size);
       }
       >.left {
         @include span(40 of 48);
@@ -51,9 +58,11 @@
     }
     >.bottom {
       text-align:center;
+      $padding:1;
+      $rhythm:$footer-bottom-rhythm - ($padding * 2);
       @include adjust-font-size-to($footer-font-size);
-      @include padding-leader(1,$footer-font-size);
-      @include padding-trailer(1,$footer-font-size);
+      @include padding-leader($padding,$footer-font-size);
+      @include padding-trailer($padding,$footer-font-size);
     }
   }
 }

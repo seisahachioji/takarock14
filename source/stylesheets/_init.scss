@@ -35,6 +35,9 @@ $default-text-shadow-blur:     $default-box-shadow-blur;
 $default-text-shadow-color:    $default-box-shadow-color;
 
 $footer-font-size:.9rem;
+$footer-rhythm:10;
+$footer-bottom-rhythm:3;
+$footer-column-rhythm:$footer-rhythm - $footer-bottom-rhythm;
 
 @import 'colors';
 @import 'z_index';
