@@ -1,0 +1,6 @@
+= wrap_layout :layout do
+  div#with_sidebar
+    div#left
+      div.container
+        = yield
+    = partial "partials/sidebar"
