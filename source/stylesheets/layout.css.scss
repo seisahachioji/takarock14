@@ -38,3 +38,11 @@ a {
 #footer {
   @import 'partials/footer';
 }
+
+#with_sidebar {
+  @import 'partials/layout/with_sidebar';
+}
+
+#about {
+  @import 'partials/pages/about';
+}
