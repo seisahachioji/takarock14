@@ -17,8 +17,8 @@ $nav-color:     #fff;
     @include container;
   }
   .item {
-    $span:(map-get($susy,columns) / 8);
-    @include span(6);
+    $span:(map-get($susy,columns) / 6);
+    @include span($span);
     >.container {
       display:block;
       //height:$nav-height;
