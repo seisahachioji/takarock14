@@ -1,0 +1,18 @@
+$circle-image-rhythm:5;
+
+& {
+  $size:rhythm($circle-image-rhythm);
+  $border-width:3px;
+  border:solid $border-width #ddd;
+  @include box-sizing(border-box);
+  &, &>.container {
+    display:block;
+    border-radius:50%;
+    overflow:hidden;
+    width:$size;
+    height:$size;
+  }
+  >.container {
+    margin:-($border-width);
+  }
+}
