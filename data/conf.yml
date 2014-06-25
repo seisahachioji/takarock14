@@ -5,7 +5,7 @@ nav:
     href: "/index.html"
     type: "logo"
   - name: "About"
-    href: "/index.html"
+    href: "/about.html"
   - name: "海の家"
     href: "/index.html"
   - name: "Stage"

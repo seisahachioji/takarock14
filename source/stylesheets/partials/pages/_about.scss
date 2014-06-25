@@ -1,5 +1,20 @@
-#whats_takarock_14 {
+#whats_takarock_14,
+#histories_header,
+#histories .history {
   >.container {
-    
+    @include container;
+  }
+}
+
+#histories {
+  color:$histories-color;
+  background-color:$histories-background-color;
+  #histories_header {
+    //background-color:$histories-header-background-color;
+    h1 {
+      text-align:center;
+      background-color:$histories-header-background-color;
+      margin:0 auto;
+    }
   }
 }
