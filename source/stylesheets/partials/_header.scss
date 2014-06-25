@@ -11,11 +11,14 @@ $header-rhythm:3;
   >.container {
     position:relative;
     @include gpu-acceleration;
+    padding-top:rhythm($nav-rhythm);
   }
   .content {
     position:relative;
     z-index:$header-content-z-index;
     @include container;
+    @include padding-leader(8);
+    @include padding-trailer(1);
   }
   .background {
     position:absolute;
@@ -23,19 +26,27 @@ $header-rhythm:3;
     background-position:center center;
     @include background-size(cover);
     z-index:$header-background-z-index;
-    
-    $blur:5px;
-    @include filter( blur($blur) );
-    margin:-($blur);
+    /** /
+    & {
+      $blur:5px;
+      @include filter( blur($blur) );
+      margin:-($blur);
+    }
+    / **/
   }
   h1 {
     $font-size:2rem;
     @include adjust-font-size-to($font-size);
     $rhythm:$header-rhythm - 1;
+    /*
     @include padding-leader($rhythm,$font-size);
     @include padding-trailer($rhythm,$font-size);
+    */
     margin:0;
     
     @include gutter;
+  }
+  & {
+    //margin-top:-( rhythm($nav-rhythm) );
   }
 }

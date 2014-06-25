@@ -4,13 +4,26 @@ $peterriver:#3498db;
 $orange:#f39c12;
 $carrot:#e67e22;
 
+$material-lightblue: (
+  500: #03a9f4,
+  700: #0288d1
+);
+$material-cyan: (
+  500: #00bcd4,
+  700: #0097a7
+);
+$material-blue: (
+  500: #5677fc,
+  700: #455ede
+);
+
 //$nav-background-color:$midnightblue;
-$nav-background-color:$peterriver;
+$nav-background-color:map-get($material-lightblue,500);
 //$header-background-color:$midnightblue;
-$header-background-color:$peterriver;
+$header-background-color:map-get($material-lightblue,500);
 
 //$footer-background-color:$midnightblue;
-$footer-background-color:$peterriver;
+$footer-background-color:map-get($material-lightblue,700);
 $footer-color:#fff;
 
 $histories-background-color:$midnightblue;

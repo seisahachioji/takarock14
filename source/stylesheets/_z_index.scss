@@ -1,8 +1,7 @@
 $header-z-index:1000;
 
-$head-z-index:$header-z-index + 1;
+$nav-z-index:$header-z-index + 1;
+$head-z-index:$nav-z-index + 1;
 
 $header-content-z-index:$header-z-index - 1;
 $header-background-z-index:$header-content-z-index - 1;
-
-$nav-z-index:$header-background-z-index + 1;
