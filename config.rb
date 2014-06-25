@@ -54,10 +54,29 @@ configure :development do
 end
 
 activate :blog do |blog|
+  blog.name = "blog"
   blog.layout = "blog"
   blog.sources   = "{year}-{month}-{day}-{title}.html"
   blog.prefix    = "articles"
   blog.permalink = "/:year/:month/:day/:title.html"
+  blog.summary_separator = /!READMORE/
+end
+
+activate :blog do |blog|
+  blog.name = "booth"
+  blog.layout = "blog"
+  blog.sources   = "{title}.html"
+  blog.prefix    = "booth"
+  blog.permalink = "/:title.html"
+  blog.summary_separator = /!READMORE/
+end
+
+activate :blog do |blog|
+  blog.name = "stage"
+  blog.layout = "blog"
+  blog.sources   = "{title}.html"
+  blog.prefix    = "stage"
+  blog.permalink = "/:title.html"
   blog.summary_separator = /!READMORE/
 end
 
