@@ -6,7 +6,8 @@ $carrot:#e67e22;
 
 $material-lightblue: (
   500: #03a9f4,
-  700: #0288d1
+  700: #0288d1,
+  900: #01579b
 );
 $material-cyan: (
   500: #00bcd4,
@@ -26,6 +27,8 @@ $header-background-color:map-get($material-lightblue,500);
 $footer-background-color:map-get($material-lightblue,700);
 $footer-color:#fff;
 
-$histories-background-color:$midnightblue;
+$histories-background-color:map-get($material-lightblue,900);
 $histories-header-background-color:$histories-background-color;
 $histories-color:$footer-color;
+
+$circle-image-background-color:map-get($material-lightblue,900);

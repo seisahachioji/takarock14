@@ -1,3 +1,8 @@
-a.circle_image
+- if !defined? image_src
+  - image_src = ''
+- if !defined? href
+  - href = nil
+a.circle_image href=href
   span.container
-    
+    span.image
+      img src=image_src

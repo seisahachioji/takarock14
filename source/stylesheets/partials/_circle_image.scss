@@ -1,18 +1,43 @@
 $circle-image-rhythm:5;
+$circle-image-border-width:3px;
 
-& {
-  $size:rhythm($circle-image-rhythm);
-  $border-width:3px;
-  border:solid $border-width #ddd;
-  @include box-sizing(border-box);
+@mixin circle-image-sizing($rhythm: $circle-image-rhythm, $border-width: $circle-image-border-width) {
+  $size:rhythm($rhythm);
+  border-width:$border-width;
   &, &>.container {
-    display:block;
-    border-radius:50%;
-    overflow:hidden;
     width:$size;
     height:$size;
   }
   >.container {
     margin:-($border-width);
+  }
+}
+
+& {
+  border-style:solid;
+  border-color:#ddd;
+  @include box-sizing(border-box);
+  &,
+  &>.container,
+  & .image {
+    display:block;
+    border-radius:50%;
+    overflow:hidden;
+  }
+  >.container {
+    position:relative;
+    background-color:$circle-image-background-color;
+  }
+  .image {
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    background-position:center center;
+    @include background-size(cover);
+    img {
+      display:none;
+    }
+  }
+  & {
+    @include circle-image-sizing;
   }
 }
