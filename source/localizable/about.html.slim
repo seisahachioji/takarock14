@@ -9,7 +9,12 @@ div#about
         = t(:whats_takarock_14_title)
       div.content
         = t(:whats_takarock_14_text)
-        = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['big'] }
+        div.circles
+          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['big'] }
+          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['first'] }
+          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['second'] }
+          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['third'] }
+          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['fourth'] }
   section#histories
     div#histories_header
       div.container

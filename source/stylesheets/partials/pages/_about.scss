@@ -7,9 +7,50 @@
 }
 
 #whats_takarock_14 {
-  .circle_image {
-    &.big {
-      @include circle-image-sizing(10);
+  .circles {
+    position:relative;
+    @include padding-leader(2);
+    @include padding-trailer(2);
+    .circle_image {
+      $big-rhythm:10;
+      &.big {
+        margin:0 auto;
+        @include circle-image-sizing($big-rhythm);
+      }
+      $rhythm:5;
+      &.first,
+      &.second,
+      &.third,
+      &.fourth {
+        position:absolute;
+        top:auto;bottom:auto;
+        left:50%;right:50%;
+      }
+      &.first {
+        top:0;right:auto;
+        margin-left:-( rhythm($big-rhythm + 1) );
+        @include circle-image-sizing($rhythm);
+      }
+      &.second {
+        bottom:0;left:auto;
+        margin-right:-( rhythm($big-rhythm) );
+        margin-bottom:rhythm(1);
+        @include circle-image-sizing($rhythm - 1);
+      }
+      &.third {
+        $rtm:2;
+        top:50%;right:auto;
+        margin-left:-( rhythm($big-rhythm + 2) );
+        margin-top:-( rhythm($rtm / 2) );
+        @include circle-image-sizing($rtm);
+      }
+      &.fourth {
+        $rtm:3;
+        top:0;left:auto;
+        margin-right:-( rhythm($big-rhythm) );
+        margin-top:rhythm(2);
+        @include circle-image-sizing($rtm);
+      }
     }
   }
 }
