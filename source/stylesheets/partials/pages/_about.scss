@@ -9,8 +9,10 @@
 #whats_takarock_14 {
   .circles {
     position:relative;
+    @include leader(2);
     @include padding-leader(2);
     @include padding-trailer(2);
+    @include trailer(2);
     .circle_image {
       $big-rhythm:10;
       &.big {
