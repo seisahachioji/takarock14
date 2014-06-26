@@ -1,8 +1,12 @@
 - if !defined? image_src
-  - image_src = ''
+  - image_src = 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2505.fixed.JPG'
 - if !defined? href
   - href = nil
-a.circle_image href=href
+- if !defined? classes
+  - classes = []
+- classes.push 'circle_image'
+a class=classes href=href
   span.container
-    span.image
+    - style = 'background-image:url(' + image_src + ');'
+    span.image style=style
       img src=image_src

@@ -6,6 +6,14 @@
   }
 }
 
+#whats_takarock_14 {
+  .circle_image {
+    &.big {
+      @include circle-image-sizing(10);
+    }
+  }
+}
+
 #histories {
   color:$histories-color;
   background-color:$histories-background-color;
