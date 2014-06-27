@@ -455,17 +455,25 @@ a {
       background-clip: content-box, border-box;
       background-position: left top; }
 /* line 10, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+#about #whats_takarock_14 h1 {
+  display: none; }
+/* line 14, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+#about #whats_takarock_14 .content {
+  text-align: center;
+  padding-top: 72px;
+  padding-top: 4.5rem;
+  padding-bottom: 72px;
+  padding-bottom: 4.5rem; }
+/* line 19, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
 #about #whats_takarock_14 .circles {
   position: relative;
-  margin-top: 48px;
-  margin-top: 3rem;
+  margin-top: 72px;
+  margin-top: 4.5rem;
   padding-top: 48px;
   padding-top: 3rem;
   padding-bottom: 48px;
-  padding-bottom: 3rem;
-  margin-bottom: 48px;
-  margin-bottom: 3rem; }
-  /* line 18, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  padding-bottom: 3rem; }
+  /* line 27, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
   #about #whats_takarock_14 .circles .circle_image.big {
     margin: 0 auto;
     border-width: 3px; }
@@ -476,14 +484,14 @@ a {
     /* line 73, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
     #about #whats_takarock_14 .circles .circle_image.big > .container {
       margin: -3px; }
-  /* line 23, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  /* line 32, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
   #about #whats_takarock_14 .circles .circle_image.first, #about #whats_takarock_14 .circles .circle_image.second, #about #whats_takarock_14 .circles .circle_image.third, #about #whats_takarock_14 .circles .circle_image.fourth {
     position: absolute;
     top: auto;
     bottom: auto;
     left: 50%;
     right: 50%; }
-  /* line 31, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  /* line 40, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
   #about #whats_takarock_14 .circles .circle_image.first {
     top: 0;
     right: auto;
@@ -496,7 +504,7 @@ a {
     /* line 73, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
     #about #whats_takarock_14 .circles .circle_image.first > .container {
       margin: -3px; }
-  /* line 36, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  /* line 45, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
   #about #whats_takarock_14 .circles .circle_image.second {
     bottom: 0;
     left: auto;
@@ -510,7 +518,7 @@ a {
     /* line 73, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
     #about #whats_takarock_14 .circles .circle_image.second > .container {
       margin: -3px; }
-  /* line 42, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  /* line 51, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
   #about #whats_takarock_14 .circles .circle_image.third {
     top: 50%;
     right: auto;
@@ -524,7 +532,7 @@ a {
     /* line 73, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
     #about #whats_takarock_14 .circles .circle_image.third > .container {
       margin: -3px; }
-  /* line 49, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  /* line 58, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
   #about #whats_takarock_14 .circles .circle_image.fourth {
     top: 0;
     left: auto;
@@ -538,11 +546,11 @@ a {
     /* line 73, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
     #about #whats_takarock_14 .circles .circle_image.fourth > .container {
       margin: -3px; }
-/* line 60, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+/* line 69, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
 #about #histories {
   color: white;
   background-color: #01579b; }
-  /* line 65, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  /* line 74, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
   #about #histories #histories_header h1 {
     text-align: center;
     background-color: #01579b;
