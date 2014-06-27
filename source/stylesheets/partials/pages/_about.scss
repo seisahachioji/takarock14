@@ -7,12 +7,21 @@
 }
 
 #whats_takarock_14 {
+  h1 {
+    display:none;
+  }
+  $padding:3;
+  .content {
+    text-align:center;
+    @include padding-leader($padding);
+    @include padding-trailer($padding);
+  }
   .circles {
     position:relative;
-    @include leader(2);
+    @include leader($padding);
     @include padding-leader(2);
     @include padding-trailer(2);
-    @include trailer(2);
+    //@include trailer($padding);
     .circle_image {
       $big-rhythm:10;
       &.big {
