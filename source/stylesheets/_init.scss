@@ -60,6 +60,13 @@ $nav-rhythm:3;
   }
 }
 
+@mixin reset-text {
+  h1,h2,h3,h4,h5,h6 {
+    @include adjust-font-size-to(1rem);
+    margin:0;padding:0;
+  }
+}
+
 $circle-image-rhythm:5;
 $circle-image-border-width:3px;
 

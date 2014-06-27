@@ -1,6 +1,6 @@
 #whats_takarock_14,
 #histories_header,
-#histories .history {
+/*#histories .history*/ {
   >.container {
     @include container;
   }
@@ -69,12 +69,34 @@
 #histories {
   color:$histories-color;
   background-color:$histories-background-color;
+  @include reset-text;
   #histories_header {
     //background-color:$histories-header-background-color;
     h1 {
       text-align:center;
       background-color:$histories-header-background-color;
       margin:0 auto;
+      @include adjust-font-size-to(1.75rem);
+      @include padding-leader(1);
+      @include padding-trailer(1);
+    }
+  }
+  >.container {
+    @include container;
+  }
+  .history {
+    $span:48 / 2;
+    @include span($span of 48);
+    >.container {
+      //@include padding-leader(2);
+      @include padding-trailer(2);
+      @include pad(3 of $span);
+    }
+    .content {
+      .circle_image {
+        margin:0 auto;
+        @include trailer(1);
+      }
     }
   }
 }

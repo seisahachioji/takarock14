@@ -20,11 +20,16 @@ div#about
       div.container
         h1
           = t(:history_section_title)
-    div.history
-      div.container
-        div.content
-          = t(:history_13_text)
-    div.history
-      div.container
-        div.content
-          = t(:history_12_text)
+    div.container
+      div.history
+        div.container
+          div.content
+            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
+            div.text
+              = t(:history_12_text)
+      div.history
+        div.container
+          div.content
+            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
+            div.text
+              = t(:history_13_text)
