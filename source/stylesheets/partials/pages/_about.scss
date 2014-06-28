@@ -93,6 +93,11 @@
       @include pad(3 of $span);
     }
     .content {
+      h1 {
+        @include adjust-font-size-to(1.25rem);
+        @include padding-trailer(1);
+        text-align:center;
+      }
       .circle_image {
         margin:0 auto;
         @include trailer(1);
