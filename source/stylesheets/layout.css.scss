@@ -16,6 +16,7 @@ body {
     'Meiryo', 'メイリオ',
     sans-serif;
   @include adjust-font-size-to(1rem);
+  background-color:$background-color;
 }
 #wrapper {
   min-height:100%;

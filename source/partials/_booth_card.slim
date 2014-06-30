@@ -4,8 +4,9 @@ article.booth_card
       - style = 'background-image:url(' + article.data.top_image_src + ');'
       div.background style=style
         img src=article.data.top_image_src
-    header.header
-      h1
-        = link_to article.title, article
-    main.content
-      = "ほげるわあ"
+    div.content
+      header.header
+        h1
+          = link_to article.title, article
+      div.main
+        = article.summary

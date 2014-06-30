@@ -1,10 +1,12 @@
 & {
+  @include reset-text;
   >.container {
     @include box-shadow;
     background-color:$booth-card-background-color;
+    overflow:hidden;
   }
   .top {
-    $rhythm:5;
+    $rhythm:7;
     height:rhythm($rhythm);
     position:relative;
     .background {
@@ -16,5 +18,20 @@
         display:none;
       }
     }
+  }
+  .content {
+    @include padding-leader(1);
+    @include padding-trailer(1);
+    @include pad(1);
+  }
+  .header {
+    h1 {
+      @include adjust-font-size-to(1.25rem);
+    }
+  }
+  .main {
+    @include padding-leader(1);
+    @include adjust-font-size-to(.9rem);
+    min-height:rhythm(4);
   }
 }

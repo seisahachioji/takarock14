@@ -2,5 +2,12 @@
   
 }
 .booth_card {
-  @include span($with-sidebar-left-span / 3);
+  @include span( ($with-sidebar-left-span / 3) nest);
+  //@include span($with-sidebar-left-span nest);
+  >.container {
+    @include leader(1);
+    @include trailer(1);
+    //@include squish(1);
+    @include squish(1,0);
+  }
 }

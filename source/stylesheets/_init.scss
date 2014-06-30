@@ -42,7 +42,7 @@ $footer-column-rhythm:$footer-rhythm - $footer-bottom-rhythm;
 $nav-rhythm:3;
 
 
-$with-sidebar-right-span:11;
+$with-sidebar-right-span:12;
 $with-sidebar-left-span:susy-get(columns) - $with-sidebar-right-span;
 
 @import 'colors';
@@ -65,7 +65,8 @@ $with-sidebar-left-span:susy-get(columns) - $with-sidebar-right-span;
 }
 
 @mixin reset-text {
-  h1,h2,h3,h4,h5,h6 {
+  h1,h2,h3,h4,h5,h6,
+  p {
     @include adjust-font-size-to(1rem);
     margin:0;padding:0;
   }
