@@ -55,7 +55,7 @@ end
 
 activate :blog do |blog|
   blog.name = "blog"
-  blog.layout = "blog"
+  blog.layout = "layout"
   blog.sources   = "{year}-{month}-{day}-{title}.html"
   blog.prefix    = "articles"
   blog.permalink = "/:year/:month/:day/:title.html"
@@ -64,7 +64,7 @@ end
 
 activate :blog do |blog|
   blog.name = "booth"
-  blog.layout = "blog"
+  blog.layout = "layout"
   blog.sources   = "{title}.html"
   blog.prefix    = "booth"
   blog.permalink = "/:title.html"
@@ -73,7 +73,7 @@ end
 
 activate :blog do |blog|
   blog.name = "stage"
-  blog.layout = "blog"
+  blog.layout = "layout"
   blog.sources   = "{title}.html"
   blog.prefix    = "stage"
   blog.permalink = "/:title.html"
