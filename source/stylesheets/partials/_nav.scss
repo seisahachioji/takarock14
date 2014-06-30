@@ -1,6 +1,3 @@
-$nav-font-size: 1rem;
-$nav-color:     #fff;
-
 & {
   & {
     position:fixed;
@@ -58,6 +55,15 @@ $nav-color:     #fff;
 }
 
 & {
+  @include transition-property(color,background-color,box-shadow,text-shadow);
+  @include transition-duration;
+  @include transition-timing-function(ease);
+}
+body[data-scrolled-main] & {
   color:$nav-color;
-  //background-color:$nav-background-color;
+  background-color:$nav-background-color;
+}
+body:not([data-scrolled-main]) & {
+  color:$nav-transparent-color;
+  background-color:$nav-transparent-background-color;
 }

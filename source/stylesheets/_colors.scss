@@ -18,8 +18,13 @@ $material-blue: (
   700: #455ede
 );
 
-//$nav-background-color:$midnightblue;
+$nav-transparent-color: #fff;
+$nav-transparent-background-color:rgba(255,255,255,0);
 $nav-background-color:map-get($material-lightblue,500);
+$nav-font-size: 1rem;
+//$nav-color:     #000;
+$nav-color: $nav-transparent-color;
+
 //$header-background-color:$midnightblue;
 $header-background-color:map-get($material-lightblue,500);
 
