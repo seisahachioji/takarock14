@@ -24,10 +24,10 @@ $default-transition-duration: .25s;
 
 @import 'susy';
 
-$default-box-shadow-h-offset: 0;
-$default-box-shadow-v-offset: 1px;
-$default-box-shadow-blur:     3px;
-$default-box-shadow-color:    fade(#000,12.5%);
+$default-box-shadow-h-offset:0;
+$default-box-shadow-v-offset:1px;
+$default-box-shadow-blur:3px;
+$default-box-shadow-color:rgba(0,0,0,0.125);
 
 $default-text-shadow-h-offset: $default-box-shadow-h-offset;
 $default-text-shadow-v-offset: $default-box-shadow-v-offset;
@@ -40,6 +40,10 @@ $footer-bottom-rhythm:3;
 $footer-column-rhythm:$footer-rhythm - $footer-bottom-rhythm;
 
 $nav-rhythm:3;
+
+
+$with-sidebar-right-span:11;
+$with-sidebar-left-span:susy-get(columns) - $with-sidebar-right-span;
 
 @import 'colors';
 @import 'z_index';

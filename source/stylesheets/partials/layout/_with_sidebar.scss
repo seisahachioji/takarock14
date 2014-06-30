@@ -1,13 +1,13 @@
 & {
-  $sidebar-span:10;
-  $left-span:susy-get(columns) - $sidebar-span;
+  $sidebar-span:$with-sidebar-right-span;
+  $left-span:$with-sidebar-left-span;
   & {
     @include container;
   }
   >#left {
-    @include span($left-span);
+    @include span($left-span nest);
   }
   >#sidebar {
-    @include span($sidebar-span);
+    @include span($sidebar-span nest);
   }
 }

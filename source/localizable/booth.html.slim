@@ -1,0 +1,8 @@
+---
+title: "海の家"
+layout: with_sidebar
+---
+div#booth
+  div#mainborder
+  - blog('booth').articles.each do |article|
+    = partial "partials/booth_card", :locals => { :article => article }

@@ -1,0 +1,11 @@
+article.booth_card
+  div.container
+    div.top
+      - style = 'background-image:url(' + article.data.top_image_src + ');'
+      div.background style=style
+        img src=article.data.top_image_src
+    header.header
+      h1
+        = link_to article.title, article
+    main.content
+      = "ほげるわあ"

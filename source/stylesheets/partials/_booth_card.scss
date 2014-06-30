@@ -1,0 +1,20 @@
+& {
+  >.container {
+    @include box-shadow;
+    background-color:$booth-card-background-color;
+  }
+  .top {
+    $rhythm:5;
+    height:rhythm($rhythm);
+    position:relative;
+    .background {
+      position:absolute;
+      top:0;left:0;right:0;bottom:0;
+      @include background-size(cover);
+      background-position:center center;
+      img {
+        display:none;
+      }
+    }
+  }
+}

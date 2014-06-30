@@ -48,7 +48,13 @@ a {
 #about {
   @import 'partials/pages/about';
 }
+#booth {
+  @import 'partials/pages/booth';
+}
 
 .circle_image {
   @import 'partials/circle_image';
+}
+.booth_card {
+  @import 'partials/booth_card';
 }
