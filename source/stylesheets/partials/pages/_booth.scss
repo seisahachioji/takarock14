@@ -2,9 +2,18 @@
   
 }
 .booth_section {
-  .items {
+  & {
     @include padding-leader(1);
     @include padding-trailer(1);
+  }
+  >.header {
+    @include reset-text;
+    @include squish(1);
+    h1 {
+      @include adjust-font-size-to(1.75rem);
+    }
+  }
+  >.items {
     @include container($with-sidebar-left-span);
   }
 }

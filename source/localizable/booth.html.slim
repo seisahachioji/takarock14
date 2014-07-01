@@ -5,10 +5,20 @@ layout: with_sidebar
 div#booth
   div#mainborder
   section#booth_food.booth_section
+    header.header
+      h1
+        = t(:booth_category_food)
+      div.text
+        = t(:booth_category_food_text)
     div.items
       - blog('booth').tags['food'].each do |article|
         = partial "partials/booth_card", :locals => { :article => article }
   section#booth_shop.booth_section
+    header.header
+      h1
+        = t(:booth_category_shop)
+      div.text
+        = t(:booth_category_shop_text)
     div.items
       - blog('booth').tags['shop'].each do |article|
         = partial "partials/booth_card", :locals => { :article => article }

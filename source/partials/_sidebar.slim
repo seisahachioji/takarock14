@@ -1,3 +1,12 @@
 nav#sidebar
   div.container
-    
+    section.sidebar_list_section
+      div.container
+        header.header
+          h1
+            = link_to t(:recent_booths), '/booth.html'
+        ul.items
+          - blog('booth').articles[0...10].each do |article|
+            li.item
+              a href=url_for(article)
+                = article.title

@@ -9,5 +9,28 @@
   }
   >#sidebar {
     @include span($sidebar-span nest);
+    >.container {
+      @include pad(1);
+      @include padding-leader(1);
+      @include padding-trailer(1);
+    }
+    .sidebar_list_section {
+      >.container {
+        @include reset-list;
+        @include reset-text;
+      }
+      .header {
+        h1 {
+          @include adjust-font-size-to(1.5rem);
+          //@include padding-leader(1);
+          //@include padding-trailer(1);
+        }
+      }
+      .items {
+        .item {
+          @include adjust-font-size-to(.9rem);
+        }
+      }
+    }
   }
 }
