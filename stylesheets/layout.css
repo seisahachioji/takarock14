@@ -1,0 +1,816 @@
+@charset "UTF-8";
+/* line 3, /home/travis/build/seisahachioji/takarock14/source/stylesheets/layout.css.scss */
+head {
+  z-index: 1002 !important; }
+
+/* line 7, /home/travis/build/seisahachioji/takarock14/source/stylesheets/layout.css.scss */
+html, body {
+  height: 100%;
+  height: 100vh; }
+
+/* line 11, /home/travis/build/seisahachioji/takarock14/source/stylesheets/layout.css.scss */
+body {
+  font-family: 'Verdana', 'YuGothic', 'Yu Gothic', '游ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  background-color: #fcfcfc; }
+
+/* line 21, /home/travis/build/seisahachioji/takarock14/source/stylesheets/layout.css.scss */
+#wrapper {
+  min-height: 100%;
+  min-height: 100vh;
+  position: relative; }
+
+/* line 27, /home/travis/build/seisahachioji/takarock14/source/stylesheets/layout.css.scss */
+a {
+  text-decoration: inherit;
+  color: inherit; }
+
+/* line 6, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_header.scss */
+#header {
+  color: white;
+  background-color: #03a9f4;
+  z-index: 1000;
+  overflow: hidden; }
+  /* line 11, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_header.scss */
+  #header > .container {
+    position: relative;
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    padding-top: 4.5rem; }
+  /* line 16, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_header.scss */
+  #header .content {
+    position: relative;
+    z-index: 999;
+    width: 1440px;
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 192px;
+    padding-top: 12rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem; }
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    #header .content:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    /* line 61, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head {
+      display: block;
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      z-index: 999;
+      color: #333;
+      background: rgba(255, 255, 255, 0.25); }
+    /* line 62, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:before {
+      content: "|||";
+      display: block;
+      padding: 5px 10px;
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: bold; }
+    /* line 63, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover {
+      background: rgba(255, 255, 255, 0.5);
+      color: red; }
+    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover ~ #header .content, head:hover ~ body #header .content {
+      position: relative; }
+      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      head:hover ~ #header .content:before, head:hover ~ body #header .content:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        content: " ";
+        z-index: 998;
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-size: 30px, 100% 24px;
+        background-origin: content-box, border-box;
+        background-clip: content-box, border-box;
+        background-position: left top; }
+  /* line 23, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_header.scss */
+  #header .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 998;
+    /** /
+    & {
+      $blur:5px;
+      @include filter( blur($blur) );
+      margin:-($blur);
+    }
+    / **/ }
+  /* line 37, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_header.scss */
+  #header h1 {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 48px;
+    line-height: 3rem;
+    /*
+    @include padding-leader($rhythm,$font-size);
+    @include padding-trailer($rhythm,$font-size);
+    */
+    margin: 0;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem; }
+
+/* line 2, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 1001; }
+/* line 8, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 13, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+#nav li {
+  display: block;
+  text-align: initial; }
+/* line 17, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+#nav > .container {
+  width: 1440px;
+  width: 90rem;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  #nav > .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+  head:hover ~ #nav > .container, head:hover ~ body #nav > .container {
+    position: relative; }
+    /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover ~ #nav > .container:before, head:hover ~ body #nav > .container:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: " ";
+      z-index: 998;
+      background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-size: 30px, 100% 24px;
+      background-origin: content-box, border-box;
+      background-clip: content-box, border-box;
+      background-position: left top; }
+/* line 21, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+#nav .item {
+  width: 234px;
+  width: 14.625rem;
+  float: left;
+  margin-left: 3px;
+  margin-left: 0.1875rem;
+  margin-right: 3px;
+  margin-right: 0.1875rem; }
+  /* line 24, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+  #nav .item > .container {
+    display: block; }
+  /* line 28, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+  #nav .item .text {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    margin-top: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem; }
+  /* line 37, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+  #nav .item strong.text {
+    display: none; }
+  /* line 40, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+  #nav .item .icon {
+    display: block;
+    background-position: center center;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4.5rem; }
+    /* line 47, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+    #nav .item .icon img {
+      display: none; }
+  /* line 51, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+  #nav .item .icon.logo {
+    background-image: url("../images/seisa.notext.w.png"); }
+/* line 57, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+#nav {
+  -moz-transition-property: color, background-color, box-shadow, text-shadow;
+  -webkit-transition-property: color, background-color, box-shadow, text-shadow;
+  transition-property: color, background-color, box-shadow, text-shadow;
+  -moz-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -moz-transition-timing-function: ease;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease; }
+/* line 62, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+body[data-scrolled-main] #nav {
+  color: white;
+  background-color: #03a9f4; }
+/* line 66, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_nav.scss */
+body:not([data-scrolled-main]) #nav {
+  color: white;
+  background-color: rgba(255, 255, 255, 0); }
+
+/* line 38, /home/travis/build/seisahachioji/takarock14/source/stylesheets/layout.css.scss */
+#main {
+  padding-bottom: 15rem; }
+
+/* line 2, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+#footer {
+  background-color: #0288d1;
+  color: white;
+  font-size: 14px;
+  font-size: 0.9rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  height: 15rem;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+/* line 13, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+#footer > .container > .columns {
+  width: 1440px;
+  width: 90rem;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  #footer > .container > .columns:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+  head:hover ~ #footer > .container > .columns, head:hover ~ body #footer > .container > .columns {
+    position: relative; }
+    /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover ~ #footer > .container > .columns:before, head:hover ~ body #footer > .container > .columns:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: " ";
+      z-index: 998;
+      background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-size: 30px, 100% 24px;
+      background-origin: content-box, border-box;
+      background-clip: content-box, border-box;
+      background-position: left top; }
+  /* line 56, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+  #footer > .container > .columns ul, #footer > .container > .columns ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    /* line 60, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #footer > .container > .columns ul li, #footer > .container > .columns ol li {
+      display: block;
+      text-align: inherit; }
+  /* line 18, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+  #footer > .container > .columns > .left,
+  #footer > .container > .columns > .right {
+    height: 7.5rem;
+    padding-top: 24px;
+    padding-top: 1.5rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem; }
+  /* line 24, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+  #footer > .container > .columns > .left {
+    width: 1194px;
+    width: 74.625rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem; }
+    /* line 26, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+    #footer > .container > .columns > .left #footer_nav {
+      padding-top: 48px;
+      padding-top: 3rem;
+      padding-bottom: 48px;
+      padding-bottom: 3rem; }
+    /* line 31, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+    #footer > .container > .columns > .left li {
+      display: inline-block; }
+      /* line 34, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      #footer > .container > .columns > .left li:not(:first-child) {
+        padding-left: 0.45rem; }
+      /* line 37, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      #footer > .container > .columns > .left li:not(:last-child) {
+        padding-right: 0.45rem; }
+  /* line 42, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+  #footer > .container > .columns > .right {
+    width: 234px;
+    width: 14.625rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem; }
+    /* line 44, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+    #footer > .container > .columns > .right .item {
+      /*
+      &:not(:first-child) {
+        @include leader(1,$footer-font-size);
+      }
+      */ }
+      /* line 50, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      #footer > .container > .columns > .right .item:not(:last-child) {
+        margin-bottom: 24px;
+        margin-bottom: 1.5rem; }
+      /* line 53, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      #footer > .container > .columns > .right .item > a {
+        display: block; }
+      /* line 56, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+      #footer > .container > .columns > .right .item .image {
+        display: block;
+        background-position: center center;
+        -moz-background-size: contain;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 3rem;
+        -webkit-filter: grayscale(100%) invert(100%);
+        filter: grayscale(100%) invert(100%); }
+        /* line 64, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+        #footer > .container > .columns > .right .item .image img {
+          display: none; }
+/* line 71, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_footer.scss */
+#footer > .container > .bottom {
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.9rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem; }
+
+/* line 4, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/layout/_with_sidebar.scss */
+#with_sidebar {
+  width: 1440px;
+  width: 90rem;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  #with_sidebar:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+  head:hover ~ #with_sidebar, head:hover ~ body #with_sidebar {
+    position: relative; }
+    /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover ~ #with_sidebar:before, head:hover ~ body #with_sidebar:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: " ";
+      z-index: 998;
+      background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-size: 30px, 100% 24px;
+      background-origin: content-box, border-box;
+      background-clip: content-box, border-box;
+      background-position: left top; }
+/* line 7, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/layout/_with_sidebar.scss */
+#with_sidebar > #left {
+  width: 1080px;
+  width: 67.5rem;
+  float: left; }
+/* line 10, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/layout/_with_sidebar.scss */
+#with_sidebar > #sidebar {
+  width: 360px;
+  width: 22.5rem;
+  float: left; }
+
+/* line 5, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+#about #whats_takarock_14 > .container,
+#about #histories_header > .container {
+  width: 1440px;
+  width: 90rem;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  #about #whats_takarock_14 > .container:after,
+  #about #histories_header > .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+  head:hover ~ #about #whats_takarock_14 > .container, head:hover ~ body #about #whats_takarock_14 > .container, head:hover ~
+  #about #histories_header > .container, head:hover ~ body
+  #about #histories_header > .container {
+    position: relative; }
+    /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover ~ #about #whats_takarock_14 > .container:before, head:hover ~ body #about #whats_takarock_14 > .container:before, head:hover ~
+    #about #histories_header > .container:before, head:hover ~ body
+    #about #histories_header > .container:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: " ";
+      z-index: 998;
+      background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-size: 30px, 100% 24px;
+      background-origin: content-box, border-box;
+      background-clip: content-box, border-box;
+      background-position: left top; }
+/* line 11, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+#about #whats_takarock_14 h1 {
+  display: none; }
+/* line 15, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+#about #whats_takarock_14 .content {
+  text-align: center;
+  padding-top: 72px;
+  padding-top: 4.5rem;
+  padding-bottom: 72px;
+  padding-bottom: 4.5rem; }
+/* line 20, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+#about #whats_takarock_14 .circles {
+  position: relative;
+  margin-top: 72px;
+  margin-top: 4.5rem;
+  padding-top: 48px;
+  padding-top: 3rem;
+  padding-bottom: 48px;
+  padding-bottom: 3rem; }
+  /* line 28, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #whats_takarock_14 .circles .circle_image.big {
+    margin: 0 auto;
+    border-width: 3px; }
+    /* line 81, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.big, #about #whats_takarock_14 .circles .circle_image.big > .container {
+      width: 15rem;
+      height: 15rem; }
+    /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.big > .container {
+      margin: -3px; }
+  /* line 33, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #whats_takarock_14 .circles .circle_image.first, #about #whats_takarock_14 .circles .circle_image.second, #about #whats_takarock_14 .circles .circle_image.third, #about #whats_takarock_14 .circles .circle_image.fourth {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: 50%;
+    right: 50%; }
+  /* line 41, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #whats_takarock_14 .circles .circle_image.first {
+    top: 0;
+    right: auto;
+    margin-left: -16.5rem;
+    border-width: 3px; }
+    /* line 81, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.first, #about #whats_takarock_14 .circles .circle_image.first > .container {
+      width: 7.5rem;
+      height: 7.5rem; }
+    /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.first > .container {
+      margin: -3px; }
+  /* line 46, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #whats_takarock_14 .circles .circle_image.second {
+    bottom: 0;
+    left: auto;
+    margin-right: -15rem;
+    margin-bottom: 1.5rem;
+    border-width: 3px; }
+    /* line 81, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.second, #about #whats_takarock_14 .circles .circle_image.second > .container {
+      width: 6rem;
+      height: 6rem; }
+    /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.second > .container {
+      margin: -3px; }
+  /* line 52, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #whats_takarock_14 .circles .circle_image.third {
+    top: 50%;
+    right: auto;
+    margin-left: -18rem;
+    margin-top: -1.5rem;
+    border-width: 3px; }
+    /* line 81, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.third, #about #whats_takarock_14 .circles .circle_image.third > .container {
+      width: 3rem;
+      height: 3rem; }
+    /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.third > .container {
+      margin: -3px; }
+  /* line 59, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #whats_takarock_14 .circles .circle_image.fourth {
+    top: 0;
+    left: auto;
+    margin-right: -15rem;
+    margin-top: 3rem;
+    border-width: 3px; }
+    /* line 81, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.fourth, #about #whats_takarock_14 .circles .circle_image.fourth > .container {
+      width: 4.5rem;
+      height: 4.5rem; }
+    /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    #about #whats_takarock_14 .circles .circle_image.fourth > .container {
+      margin: -3px; }
+/* line 70, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+#about #histories {
+  color: white;
+  background-color: #01579b; }
+  /* line 68, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+  #about #histories h1, #about #histories h2, #about #histories h3, #about #histories h4, #about #histories h5, #about #histories h6,
+  #about #histories p {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0; }
+  /* line 76, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #histories #histories_header h1 {
+    text-align: center;
+    background-color: #01579b;
+    margin: 0 auto;
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 48px;
+    line-height: 3rem;
+    padding-top: 24px;
+    padding-top: 1.5rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem; }
+  /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #histories > .container {
+    width: 1440px;
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    #about #histories > .container:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover ~ #about #histories > .container, head:hover ~ body #about #histories > .container {
+      position: relative; }
+      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      head:hover ~ #about #histories > .container:before, head:hover ~ body #about #histories > .container:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        content: " ";
+        z-index: 998;
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-size: 30px, 100% 24px;
+        background-origin: content-box, border-box;
+        background-clip: content-box, border-box;
+        background-position: left top; }
+  /* line 88, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+  #about #histories .history {
+    width: 714px;
+    width: 44.625rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem; }
+    /* line 91, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+    #about #histories .history > .container {
+      padding-bottom: 48px;
+      padding-bottom: 3rem;
+      padding-left: 90px;
+      padding-left: 5.625rem;
+      padding-right: 90px;
+      padding-right: 5.625rem; }
+    /* line 97, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+    #about #histories .history .content h1 {
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 24px;
+      line-height: 1.5rem;
+      padding-bottom: 24px;
+      padding-bottom: 1.5rem;
+      text-align: center; }
+    /* line 102, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_about.scss */
+    #about #histories .history .content .circle_image {
+      margin: 0 auto;
+      margin-bottom: 24px;
+      margin-bottom: 1.5rem; }
+
+/* line 5, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_booth.scss */
+#booth .booth_section .items {
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
+  width: 1080px;
+  width: 67.5rem;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  #booth .booth_section .items:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+  head:hover ~ #booth .booth_section .items, head:hover ~ body #booth .booth_section .items {
+    position: relative; }
+    /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    head:hover ~ #booth .booth_section .items:before, head:hover ~ body #booth .booth_section .items:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: " ";
+      z-index: 998;
+      background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+      background-size: 30px, 100% 24px;
+      background-origin: content-box, border-box;
+      background-clip: content-box, border-box;
+      background-position: left top; }
+/* line 11, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_booth.scss */
+#booth .booth_card {
+  width: 360px;
+  width: 22.5rem;
+  float: left; }
+  /* line 14, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/pages/_booth.scss */
+  #booth .booth_card > .container {
+    margin-top: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    margin-left: 33px;
+    margin-left: 2.0625rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem; }
+
+/* line 1, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_circle_image.scss */
+.circle_image {
+  border-style: solid;
+  border-color: #ddd;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  /* line 5, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_circle_image.scss */
+  .circle_image, .circle_image > .container, .circle_image .image {
+    display: block;
+    border-radius: 50%;
+    overflow: hidden; }
+  /* line 12, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_circle_image.scss */
+  .circle_image > .container {
+    position: relative;
+    background-color: #01579b; }
+  /* line 16, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_circle_image.scss */
+  .circle_image .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+    /* line 21, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_circle_image.scss */
+    .circle_image .image img {
+      display: none; }
+  /* line 25, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_circle_image.scss */
+  .circle_image {
+    border-width: 3px; }
+    /* line 81, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    .circle_image, .circle_image > .container {
+      width: 7.5rem;
+      height: 7.5rem; }
+    /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    .circle_image > .container {
+      margin: -3px; }
+
+/* line 68, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+.booth_card h1, .booth_card h2, .booth_card h3, .booth_card h4, .booth_card h5, .booth_card h6,
+.booth_card p {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0; }
+/* line 3, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+.booth_card > .container {
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.125);
+  background-color: white;
+  overflow: hidden; }
+/* line 8, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+.booth_card .top {
+  height: 10.5rem;
+  position: relative; }
+  /* line 12, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+  .booth_card .top .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+    /* line 17, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+    .booth_card .top .background img {
+      display: none; }
+  /* line 21, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+  .booth_card .top .circle_image {
+    border-width: 3px;
+    margin-left: 18px;
+    margin-left: 1.125rem;
+    margin-right: 18px;
+    margin-right: 1.125rem;
+    margin-bottom: -2.25rem; }
+    /* line 81, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    .booth_card .top .circle_image, .booth_card .top .circle_image > .container {
+      width: 4.5rem;
+      height: 4.5rem; }
+    /* line 85, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+    .booth_card .top .circle_image > .container {
+      margin: -3px; }
+    /* line 26, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+    .booth_card .top .circle_image {
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: auto;
+      right: 0; }
+/* line 35, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+.booth_card .content {
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
+  padding-left: 30px;
+  padding-left: 1.875rem;
+  padding-right: 30px;
+  padding-right: 1.875rem;
+  min-height: 9rem; }
+/* line 41, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+.booth_card .header {
+  margin-right: 63px;
+  margin-right: 3.9375rem; }
+  /* line 43, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+  .booth_card .header h1 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+/* line 47, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_booth_card.scss */
+.booth_card .main {
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  font-size: 14px;
+  font-size: 0.9rem;
+  line-height: 24px;
+  line-height: 1.5rem; }
