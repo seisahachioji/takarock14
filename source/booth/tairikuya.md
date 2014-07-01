@@ -1,8 +1,8 @@
 ---
-title: "タピオカ (2013)"
+title: "美術ゼミ 大陸屋 (2013)"
 date: 2014-06-30 19:18 JST
 top_image_src: "http://www.seisa.ed.jp/takao/takarock13/img/IMGP1724.JPG"
 tags:
-- food
+- shop
 ---
-プルンプルンでございます～♪
+美術ゼミのメンバーとキャンドルを作れるらしい

@@ -1,6 +1,13 @@
 & {
   
 }
+.booth_section {
+  .items {
+    @include padding-leader(1);
+    @include padding-trailer(1);
+    @include container($with-sidebar-left-span);
+  }
+}
 .booth_card {
   @include span( ($with-sidebar-left-span / 3) nest);
   //@include span($with-sidebar-left-span nest);

@@ -4,5 +4,11 @@ layout: with_sidebar
 ---
 div#booth
   div#mainborder
-  - blog('booth').articles.each do |article|
-    = partial "partials/booth_card", :locals => { :article => article }
+  section#booth_food.booth_section
+    div.items
+      - blog('booth').tags['food'].each do |article|
+        = partial "partials/booth_card", :locals => { :article => article }
+  section#booth_shop.booth_section
+    div.items
+      - blog('booth').tags['shop'].each do |article|
+        = partial "partials/booth_card", :locals => { :article => article }

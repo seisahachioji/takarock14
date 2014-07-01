@@ -18,13 +18,28 @@
         display:none;
       }
     }
+    .circle_image {
+      $rhythm:3;
+      @include circle-image-sizing($rhythm);
+      @include squish(0.5);
+      margin-bottom:-( rhythm( $rhythm / 2 ) );
+      & {
+        position:absolute;
+        top:auto;bottom:0;
+        //left:0;
+        //right:auto;
+        left:auto;right:0;
+      }
+    }
   }
   .content {
     @include padding-leader(1);
     @include padding-trailer(1);
     @include pad(1);
+    min-height:rhythm(6);
   }
   .header {
+    @include post(2);
     h1 {
       @include adjust-font-size-to(1.25rem);
     }
@@ -32,6 +47,5 @@
   .main {
     @include padding-leader(1);
     @include adjust-font-size-to(.9rem);
-    min-height:rhythm(4);
   }
 }
