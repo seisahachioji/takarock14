@@ -2,7 +2,7 @@ nav#nav
   ul.container
     - data.conf.nav.items.each do |item|
       li.item
-        a.container href=url_for(item.href, :relative => true)
+        a.container href=url_for(item.href)
           - if !item.type || item.type == 'item'
             span.text
               = item.name
