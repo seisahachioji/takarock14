@@ -1,5 +1,18 @@
 ---
-layout: with_sidebar
+#layout: with_sidebar
 ---
+div#mainborder
 div#index
-  = "もげ"
+  section#index_video_section.index_section
+    div.container
+      div.video
+        <iframe src="//www.youtube.com/embed/videoseries?list=PLzLefcogapwnpcRm-tZb4Z9N0hZLh1vc0" frameborder="0" allowfullscreen></iframe>
+  section#index_news_section.index_section
+    div.container
+      header.header
+        div.container
+          h1
+            = t(:index_category_news)
+      div.items
+        - blog('blog').tags['news'].each do |article|
+          = partial "partials/news_card", :locals => { :article => article }

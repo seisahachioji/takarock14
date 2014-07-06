@@ -46,6 +46,9 @@ a {
   @import 'partials/layout/with_sidebar';
 }
 
+#index {
+  @import 'partials/pages/index';
+}
 #about {
   @import 'partials/pages/about';
 }
@@ -63,6 +66,7 @@ a {
   @import 'partials/circle_image';
 }
 .booth_card,
-.stage_card {
+.stage_card,
+.news_card {
   @import 'partials/booth_card';
 }

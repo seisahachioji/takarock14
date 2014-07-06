@@ -1,0 +1,13 @@
+article.news_card
+  div.container
+    div.top
+      - style = 'background-image:url(' + article.data.top_image_src + ');'
+      div.background style=style
+        img src=article.data.top_image_src
+      = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
+    div.content
+      header.header
+        h1
+          = link_to article.title, article
+      div.main
+        = article.summary
