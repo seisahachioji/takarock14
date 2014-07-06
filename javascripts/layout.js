@@ -10,7 +10,7 @@
     header = $('#nav');
     $(body).attr('data-scroll-top', position);
     headerHeight = $(header).height();
-    if ((mainPosition != null) && (mainPosition - headerHeight) <= position) {
+    if ((mainPosition != null) && (mainPosition - (headerHeight * 2)) <= position) {
       return $(body).attr('data-scrolled-main', 'data-scrolled-main');
     } else {
       return $(body).removeAttr('data-scrolled-main');
