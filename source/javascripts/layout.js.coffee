@@ -9,7 +9,7 @@ onscroll = ->
   
   headerHeight = $(header).height()
   
-  if mainPosition? and (mainPosition - headerHeight) <= position
+  if mainPosition? and (mainPosition - (headerHeight * 2) ) <= position
     $(body).attr 'data-scrolled-main', 'data-scrolled-main'
   else
     $(body).removeAttr 'data-scrolled-main'
