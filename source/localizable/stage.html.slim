@@ -13,3 +13,12 @@ div#stage
     div.items
       - blog('stage').tags['guest'].each do |article|
         = partial "partials/stage_card", :locals => { :article => article }
+  section#stage_seisa.stage_section
+    header.header
+      h1
+        = t(:stage_category_guest)
+      div.text
+        = t(:stage_category_guest_text)
+    div.items
+      - blog('stage').tags['seisa'].each do |article|
+        = partial "partials/stage_card", :locals => { :article => article }
