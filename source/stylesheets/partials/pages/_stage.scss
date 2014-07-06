@@ -1,0 +1,32 @@
+& {
+  
+}
+.stage_section {
+  & {
+    @include padding-leader(1);
+    @include padding-trailer(1);
+  }
+  >.header {
+    @include reset-text;
+    @include squish(1);
+    h1 {
+      @include adjust-font-size-to(1.75rem);
+    }
+  }
+  >.items {
+    @include container($with-sidebar-left-span);
+  }
+}
+.stage_card {
+  @include span( ($with-sidebar-left-span / 3) nest);
+  //@include span($with-sidebar-left-span nest);
+  >.container {
+    @include leader(1);
+    @include trailer(1);
+    //@include squish(1);
+    @include squish(1,0);
+  }
+  .content {
+    min-height:rhythm(7);
+  }
+}
