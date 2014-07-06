@@ -1,0 +1,19 @@
+---
+title: "Area Map"
+layout: with_sidebar
+---
+div#areamap
+  div#mainborder
+  div.container
+    div.left
+      - link_href = url_for('/images/maps/takao_ca_map.png')
+      - path = url_for('/images/maps/takao_ca_map_toumei.png')
+      - style = 'background-image:url(' + path + ');'
+      div.container
+        a.map style=style href=link_href
+          img src=path
+    div.right
+      div.container
+        span
+          = t(:areamap_text)
+          = link_to t(:download), link_href

@@ -1,0 +1,38 @@
+& {
+  >.container {
+    @include container($with-sidebar-left-span);
+    @include padding-leader(3);
+    @include padding-trailer(3);
+    $left-span:20;
+    $right-span:$with-sidebar-left-span - $left-span;
+    >.left {
+      @include span($left-span);
+      >.container {
+        @include prefix(3);
+        @include suffix(1);
+      }
+    }
+    >.right {
+      @include span($right-span);
+      >.container {
+        @include prefix(1);
+        @include suffix(3);
+        @include padding-leader(2);
+      }
+    }
+  }
+  .map {
+    display:block;
+    @include background-size(contain);
+    background-position:center center;
+    background-repeat:no-repeat;
+    height:rhythm(20);
+    @include rhythm-borders(5px);
+    border-radius:rhythm(.5);
+    background-color:$areamap-background-color;
+    border-color:$areamap-border-color;
+    img {
+      display:none;
+    }
+  }
+}
