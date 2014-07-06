@@ -26,4 +26,7 @@
     //@include squish(1);
     @include squish(1,0);
   }
+  .content {
+    min-height:rhythm(6);
+  }
 }

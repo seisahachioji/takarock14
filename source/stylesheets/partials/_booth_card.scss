@@ -36,7 +36,6 @@
     @include padding-leader(1);
     @include padding-trailer(1);
     @include pad(1);
-    min-height:rhythm(6);
   }
   .header {
     @include post(2);
