@@ -108,6 +108,10 @@ $circle-image-border-width:3px;
     @include leader(1);
     @include trailer(1);
   }
+  blockquote {
+    //@include prefix(1);
+    @include apply-side-rhythm-border(left,5px);
+  }
   @if $set-gutters {
     @include article-text-gutters;
   }
