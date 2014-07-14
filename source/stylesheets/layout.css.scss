@@ -61,6 +61,9 @@ a {
 #areamap {
   @import 'partials/pages/areamap';
 }
+#blog_single {
+  @import 'partials/layout/blog';
+}
 
 .circle_image {
   @import 'partials/circle_image';

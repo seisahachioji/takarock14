@@ -1,0 +1,26 @@
+& {
+  @include reset-text;
+}
+#blog_single_article {
+  #article_header {
+    @include gutters;
+    >.container {
+      @include padding-leader(1);
+      @include padding-trailer(1);
+      @include pad(1);
+    }
+    h1 {
+      @include adjust-font-size-to(2rem);
+    }
+  }
+  #article_main {
+    >.container {
+      @include pad(1);
+    }
+    #article_text {
+      @include padding-leader(1);
+      @include padding-trailer(1);
+      @include article-text-styling(true);
+    }
+  }
+}

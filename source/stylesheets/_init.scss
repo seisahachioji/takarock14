@@ -66,7 +66,7 @@ $with-sidebar-left-span:susy-get(columns) - $with-sidebar-right-span;
 
 @mixin reset-text {
   h1,h2,h3,h4,h5,h6,
-  p {
+  p, blockquote {
     @include adjust-font-size-to(1rem);
     margin:0;padding:0;
   }
@@ -84,5 +84,37 @@ $circle-image-border-width:3px;
   }
   >.container {
     margin:-($border-width);
+  }
+}
+
+@mixin article-text-styling($set-gutters: false) {
+  h1 {
+    @include adjust-font-size-to(2rem);
+  }
+  h2 {
+    @include adjust-font-size-to(1.5rem);
+  }
+  h3 {
+    @include adjust-font-size-to(1.25rem);
+  }
+  h4 {
+    @include adjust-font-size-to(1.125rem);
+  }
+  h1,h2,h3,h4,h5,h6 {
+    @include leader(2);
+    @include trailer(1);
+  }
+  p, blockquote {
+    @include leader(1);
+    @include trailer(1);
+  }
+  @if $set-gutters {
+    @include article-text-gutters;
+  }
+}
+@mixin article-text-gutters() {
+  h1,h2,h3,h4,h5,h6,
+  p, blockquote {
+    @include gutters;
   }
 }
