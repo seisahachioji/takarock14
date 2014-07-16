@@ -19,6 +19,7 @@ gem "redcarpet"
 gem "middleman-slim"
 gem "sass", "<= 3.3.7", ">= 3.3.0"
 gem "compass", "<= 1.0.0", ">= 1.0.0.alpha.19"
+gem 'breakpoint', '~> 2.4.2'
 gem "susy"
 gem "middleman-blog"
 gem "nokogiri"

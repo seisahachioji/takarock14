@@ -14,11 +14,21 @@
     }
   }
   >.items {
-    @include container($with-sidebar-left-span);
+    @include breakpoint($layout-default-breakpoint) {
+      @include ws-cardslayout-container-sizing(default);
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include ws-cardslayout-container-sizing(square-pc);
+    }
   }
 }
 .stage_card {
-  @include span( ($with-sidebar-left-span / 3) nest);
+  @include breakpoint($layout-default-breakpoint) {
+    @include ws-cardslayout-card-sizing(default);
+  }
+  @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+    @include ws-cardslayout-card-sizing(square-pc);
+  }
   //@include span($with-sidebar-left-span nest);
   >.container {
     @include leader(1);

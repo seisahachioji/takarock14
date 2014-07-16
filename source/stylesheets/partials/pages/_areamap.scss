@@ -1,19 +1,22 @@
 & {
   >.container {
-    @include container($with-sidebar-left-span);
+    @include breakpoint($layout-default-breakpoint) {
+      @include areamap-contaier-sizing(default);
+      @include areamap-column-sizing(default);
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include areamap-contaier-sizing(square-pc);
+      @include areamap-column-sizing(square-pc);
+    }
     @include padding-leader(3);
     @include padding-trailer(3);
-    $left-span:20;
-    $right-span:$with-sidebar-left-span - $left-span;
     >.left {
-      @include span($left-span);
       >.container {
         @include prefix(3);
         @include suffix(1);
       }
     }
     >.right {
-      @include span($right-span);
       >.container {
         @include prefix(1);
         @include suffix(3);

@@ -16,9 +16,15 @@ $header-rhythm:3;
   .content {
     position:relative;
     z-index:$header-content-z-index;
-    @include container;
     @include padding-leader(8);
     @include padding-trailer(1);
+    
+    @include breakpoint($layout-default-breakpoint) {
+      @include container;
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include container;
+    }
   }
   .background {
     position:absolute;

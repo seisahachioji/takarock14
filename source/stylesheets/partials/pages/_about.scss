@@ -1,8 +1,16 @@
+@mixin about-container-sizing($layout: default) {
+  @include container;
+}
 #whats_takarock_14,
 #histories_header,
 /*#histories .history*/ {
   >.container {
-    @include container;
+    @include breakpoint($layout-default-breakpoint) {
+      @include about-container-sizing(default);
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include about-container-sizing(square-pc);
+    }
   }
 }
 
@@ -66,6 +74,12 @@
   }
 }
 
+@mixin about-history-item-sizing($layout: default) {
+  $max-span:susy-get(columns);
+  $span:$max-span / 2;
+  @include span($span of $max-span);
+}
+
 #histories {
   color:$histories-color;
   background-color:$histories-background-color;
@@ -82,15 +96,26 @@
     }
   }
   >.container {
-    @include container;
+    @include breakpoint($layout-default-breakpoint) {
+      @include about-container-sizing(square-pc);
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include about-container-sizing(square-pc);
+    }
   }
   .history {
-    $span:48 / 2;
-    @include span($span of 48);
+    @include breakpoint($layout-default-breakpoint) {
+      @include about-container-sizing(default);
+      @include about-history-item-sizing(default);
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include about-container-sizing(square-pc);
+      @include about-history-item-sizing(square-pc);
+    }
     >.container {
       //@include padding-leader(2);
       @include padding-trailer(2);
-      @include pad(3 of $span);
+      @include pad(3);
     }
     .content {
       h1 {

@@ -16,11 +16,22 @@
   }
   >.container {
     //height:$nav-height;
-    @include container;
+    @include breakpoint($layout-default-breakpoint) {
+      @include container;
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include container;
+    }
   }
   .item {
-    $span:(map-get($susy,columns) / 6);
-    @include span($span);
+    @include breakpoint($layout-default-breakpoint) {
+      $span:(susy-get(columns) / 6);
+      @include span($span);
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      $span:(susy-get(columns) / 6);
+      @include span($span);
+    }
     >.container {
       display:block;
       //height:$nav-height;

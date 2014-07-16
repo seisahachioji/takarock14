@@ -1,14 +1,15 @@
 & {
-  $sidebar-span:$with-sidebar-right-span;
-  $left-span:$with-sidebar-left-span;
-  & {
-    @include container;
+  @include breakpoint($layout-default-breakpoint) {
+    @include with-sidebar-sizing(default);
   }
+  @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+    @include with-sidebar-sizing(square-pc);
+  }
+  
   >#left {
-    @include span($left-span nest);
+    
   }
   >#sidebar {
-    @include span($sidebar-span nest);
     >.container {
       @include pad(1);
       @include padding-leader(1);

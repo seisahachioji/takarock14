@@ -1,5 +1,17 @@
 @charset 'UTF-8';
+
+$default-box-shadow-h-offset:0;
+$default-box-shadow-v-offset:1px;
+$default-box-shadow-blur:3px;
+$default-box-shadow-color:rgba(0,0,0,0.125);
+
+$default-text-shadow-h-offset: $default-box-shadow-h-offset;
+$default-text-shadow-v-offset: $default-box-shadow-v-offset;
+$default-text-shadow-blur:     $default-box-shadow-blur;
+$default-text-shadow-color:    $default-box-shadow-color;
+
 @import 'compass';
+@import 'breakpoint';
 
 $susy: (
   column-width: 24px,
@@ -24,15 +36,10 @@ $default-transition-duration: .25s;
 
 @import 'susy';
 
-$default-box-shadow-h-offset:0;
-$default-box-shadow-v-offset:1px;
-$default-box-shadow-blur:3px;
-$default-box-shadow-color:rgba(0,0,0,0.125);
+$layout-default-breakpoint: container($susy);
 
-$default-text-shadow-h-offset: $default-box-shadow-h-offset;
-$default-text-shadow-v-offset: $default-box-shadow-v-offset;
-$default-text-shadow-blur:     $default-box-shadow-blur;
-$default-text-shadow-color:    $default-box-shadow-color;
+$layout-square-pc: 40;
+$layout-square-pc-breakpoint:0px ($layout-default-breakpoint - 1px);
 
 $footer-font-size:.9rem;
 $footer-rhythm:10;
@@ -41,9 +48,10 @@ $footer-column-rhythm:$footer-rhythm - $footer-bottom-rhythm;
 
 $nav-rhythm:3;
 
-
-$with-sidebar-right-span:12;
-$with-sidebar-left-span:susy-get(columns) - $with-sidebar-right-span;
+$with-sidebar-right-span: (
+  default: 12,
+  square-pc: 10
+);
 
 @import 'colors';
 @import 'z_index';
@@ -121,4 +129,50 @@ $circle-image-border-width:3px;
   p, blockquote {
     @include gutters;
   }
+}
+
+@mixin with-sidebar-sizing($layout: default) {
+  $right-span: with-sidebar-right-span($layout);
+  $left-span:  with-sidebar-left-span($layout);
+  @include container;
+  >#left {
+    @include span($left-span nest);
+  }
+  #sidebar {
+    @include span($right-span nest);
+  }
+}
+@function with-sidebar-right-span($layout: default) {
+  @return map-get($with-sidebar-right-span, $layout);
+}
+@function with-sidebar-left-span($layout: default) {
+  @return susy-get(columns) - with-sidebar-right-span($layout);
+}
+@mixin ws-cardslayout-container-sizing($layout: default) {
+  @include container( with-sidebar-left-span($layout) );
+}
+@mixin ws-cardslayout-card-sizing($layout: default) {
+  $span:with-sidebar-left-span($layout) / 3;
+  @include span($span nest);
+}
+@mixin areamap-contaier-sizing($layout: default) {
+  @include container( with-sidebar-left-span($layout) );
+}
+@mixin areamap-column-sizing($layout: default) {
+  $left-span:20;
+  $right-span:with-sidebar-left-span(default) - $left-span;
+  >.left {
+    @include span($left-span);
+  }
+  >.right {
+    @include span($right-span);
+  }
+}
+@mixin index-newssection-container-sizing($layout: default) {
+  @include container;
+}
+@mixin index-newscard-sizing($layout: default) {
+  $max-span:susy-get(columns);
+  $span:$max-span / 3;
+  @include span($span nest);
 }
