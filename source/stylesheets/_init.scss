@@ -151,9 +151,16 @@ $circle-image-border-width:3px;
 }
 
 @mixin with-sidebar-sizing($layout: default) {
-  $right-span: with-sidebar-right-span($layout);
-  $left-span:  with-sidebar-left-span($layout);
   @include container;
+  $left-span:  with-sidebar-left-span($layout);
+  $right-span: with-sidebar-right-span($layout);
+  @if $layout == phablet or phone {
+    $left-span: susy-get(columns);
+    $right-span:0;
+    >#sidebar {
+      display:none;
+    }
+  }
   >#left {
     @include span($left-span nest);
   }
@@ -168,13 +175,25 @@ $circle-image-border-width:3px;
   @return susy-get(columns) - with-sidebar-right-span($layout);
 }
 @mixin ws-cardslayout-container-sizing($layout: default) {
-  @include container( with-sidebar-left-span($layout) );
+  $span: with-sidebar-left-span($layout);
+  @if $layout == phablet or phone {
+    @include container;
+  } @else {
+    @include container($span);
+  }
 }
 @mixin ws-cardslayout-card-sizing($layout: default) {
   $max-span:with-sidebar-left-span($layout);
   $span:$max-span / 3;
   @if $layout == phablet or phone {
-    $span: $max-span;
+    $span:susy-get(columns);
+    >.container {
+      @include squish(1);
+    }
+  } @else {
+    >.container {
+      @include squish(1,0);
+    }
   }
   @include span($span nest);
 }

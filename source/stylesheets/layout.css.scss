@@ -58,6 +58,33 @@ a {
 #stage {
   @import 'partials/pages/stage';
 }
+.booth_card,
+.stage_card {
+  @include breakpoint($layout-default-breakpoint) {
+    @include ws-cardslayout-card-sizing(default);
+  }
+  @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+    @include ws-cardslayout-card-sizing(square-pc);
+  }
+  @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+    @include ws-cardslayout-card-sizing(tablet);
+  }
+  @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+    @include ws-cardslayout-card-sizing(phablet);
+  }
+  @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+    @include ws-cardslayout-card-sizing(phone);
+  }
+  //@include span($with-sidebar-left-span nest);
+  >.container {
+    @include leader(1);
+    @include trailer(1);
+    //@include squish(1);
+  }
+  .content {
+    min-height:rhythm(6);
+  }
+}
 #areamap {
   @import 'partials/pages/areamap';
 }
