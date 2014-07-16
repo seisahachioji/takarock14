@@ -56,12 +56,12 @@ a {
         width: 90rem;
         margin-left: auto;
         margin-right: auto; }
-        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
         #header .content:after {
           content: " ";
           display: block;
           clear: both; }
-        /* line 61, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 65, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head {
           display: block;
           position: fixed;
@@ -70,7 +70,7 @@ a {
           z-index: 999;
           color: #333;
           background: rgba(255, 255, 255, 0.25); }
-        /* line 62, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 66, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:before {
           content: "|||";
           display: block;
@@ -78,14 +78,14 @@ a {
           font-family: sans-serif;
           font-size: 16px;
           font-weight: bold; }
-        /* line 63, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover {
           background: rgba(255, 255, 255, 0.5);
           color: red; }
-        /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #header .content, head:hover ~ body #header .content {
           position: relative; }
-          /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+          /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
           head:hover ~ #header .content:before, head:hover ~ body #header .content:before {
             position: absolute;
             top: 0;
@@ -94,9 +94,9 @@ a {
             right: 0;
             content: " ";
             z-index: 998;
-            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
             background-size: 30px, 100% 24px;
             background-origin: content-box, border-box;
             background-clip: content-box, border-box;
@@ -108,15 +108,15 @@ a {
         width: 75rem;
         margin-left: auto;
         margin-right: auto; }
-        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
         #header .content:after {
           content: " ";
           display: block;
           clear: both; }
-        /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #header .content, head:hover ~ body #header .content {
           position: relative; }
-          /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+          /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
           head:hover ~ #header .content:before, head:hover ~ body #header .content:before {
             position: absolute;
             top: 0;
@@ -125,9 +125,9 @@ a {
             right: 0;
             content: " ";
             z-index: 998;
-            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
             background-size: 30px, 100% 24px;
             background-origin: content-box, border-box;
             background-clip: content-box, border-box;
@@ -139,15 +139,15 @@ a {
         width: 60rem;
         margin-left: auto;
         margin-right: auto; }
-        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
         #header .content:after {
           content: " ";
           display: block;
           clear: both; }
-        /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #header .content, head:hover ~ body #header .content {
           position: relative; }
-          /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+          /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
           head:hover ~ #header .content:before, head:hover ~ body #header .content:before {
             position: absolute;
             top: 0;
@@ -156,9 +156,9 @@ a {
             right: 0;
             content: " ";
             z-index: 998;
-            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
             background-size: 30px, 100% 24px;
             background-origin: content-box, border-box;
             background-clip: content-box, border-box;
@@ -170,15 +170,15 @@ a {
         width: 33.75rem;
         margin-left: auto;
         margin-right: auto; }
-        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
         #header .content:after {
           content: " ";
           display: block;
           clear: both; }
-        /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #header .content, head:hover ~ body #header .content {
           position: relative; }
-          /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+          /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
           head:hover ~ #header .content:before, head:hover ~ body #header .content:before {
             position: absolute;
             top: 0;
@@ -187,9 +187,9 @@ a {
             right: 0;
             content: " ";
             z-index: 998;
-            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
             background-size: 30px, 100% 24px;
             background-origin: content-box, border-box;
             background-clip: content-box, border-box;
@@ -201,15 +201,15 @@ a {
         width: 18.75rem;
         margin-left: auto;
         margin-right: auto; }
-        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+        /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
         #header .content:after {
           content: " ";
           display: block;
           clear: both; }
-        /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #header .content, head:hover ~ body #header .content {
           position: relative; }
-          /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+          /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
           head:hover ~ #header .content:before, head:hover ~ body #header .content:before {
             position: absolute;
             top: 0;
@@ -218,9 +218,9 @@ a {
             right: 0;
             content: " ";
             z-index: 998;
-            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+            background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
             background-size: 30px, 100% 24px;
             background-origin: content-box, border-box;
             background-clip: content-box, border-box;
@@ -284,15 +284,15 @@ a {
     width: 90rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #nav > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #nav > .container, head:hover ~ body #nav > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #nav > .container:before, head:hover ~ body #nav > .container:before {
         position: absolute;
         top: 0;
@@ -301,9 +301,9 @@ a {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -315,15 +315,15 @@ a {
     width: 75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #nav > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #nav > .container, head:hover ~ body #nav > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #nav > .container:before, head:hover ~ body #nav > .container:before {
         position: absolute;
         top: 0;
@@ -332,9 +332,9 @@ a {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -346,15 +346,15 @@ a {
     width: 60rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #nav > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #nav > .container, head:hover ~ body #nav > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #nav > .container:before, head:hover ~ body #nav > .container:before {
         position: absolute;
         top: 0;
@@ -363,9 +363,9 @@ a {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -377,15 +377,15 @@ a {
     width: 33.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #nav > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #nav > .container, head:hover ~ body #nav > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #nav > .container:before, head:hover ~ body #nav > .container:before {
         position: absolute;
         top: 0;
@@ -394,9 +394,9 @@ a {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -408,15 +408,15 @@ a {
     width: 18.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #nav > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #nav > .container, head:hover ~ body #nav > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #nav > .container:before, head:hover ~ body #nav > .container:before {
         position: absolute;
         top: 0;
@@ -425,9 +425,9 @@ a {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -561,15 +561,15 @@ body:not([data-scrolled-main]) #nav {
     width: 90rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #footer > .container > .columns:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #footer > .container > .columns, head:hover ~ body #footer > .container > .columns {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #footer > .container > .columns:before, head:hover ~ body #footer > .container > .columns:before {
         position: absolute;
         top: 0;
@@ -578,9 +578,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -610,15 +610,15 @@ body:not([data-scrolled-main]) #nav {
     width: 75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #footer > .container > .columns:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #footer > .container > .columns, head:hover ~ body #footer > .container > .columns {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #footer > .container > .columns:before, head:hover ~ body #footer > .container > .columns:before {
         position: absolute;
         top: 0;
@@ -627,9 +627,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -659,15 +659,15 @@ body:not([data-scrolled-main]) #nav {
     width: 60rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #footer > .container > .columns:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #footer > .container > .columns, head:hover ~ body #footer > .container > .columns {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #footer > .container > .columns:before, head:hover ~ body #footer > .container > .columns:before {
         position: absolute;
         top: 0;
@@ -676,9 +676,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -708,15 +708,15 @@ body:not([data-scrolled-main]) #nav {
     width: 33.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #footer > .container > .columns:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #footer > .container > .columns, head:hover ~ body #footer > .container > .columns {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #footer > .container > .columns:before, head:hover ~ body #footer > .container > .columns:before {
         position: absolute;
         top: 0;
@@ -725,9 +725,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -757,15 +757,15 @@ body:not([data-scrolled-main]) #nav {
     width: 18.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #footer > .container > .columns:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #footer > .container > .columns, head:hover ~ body #footer > .container > .columns {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #footer > .container > .columns:before, head:hover ~ body #footer > .container > .columns:before {
         position: absolute;
         top: 0;
@@ -774,9 +774,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -878,15 +878,15 @@ body:not([data-scrolled-main]) #nav {
     width: 90rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #with_sidebar:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #with_sidebar, head:hover ~ body #with_sidebar {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #with_sidebar:before, head:hover ~ body #with_sidebar:before {
         position: absolute;
         top: 0;
@@ -895,9 +895,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -919,15 +919,15 @@ body:not([data-scrolled-main]) #nav {
     width: 75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #with_sidebar:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #with_sidebar, head:hover ~ body #with_sidebar {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #with_sidebar:before, head:hover ~ body #with_sidebar:before {
         position: absolute;
         top: 0;
@@ -936,9 +936,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -960,15 +960,15 @@ body:not([data-scrolled-main]) #nav {
     width: 60rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #with_sidebar:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #with_sidebar, head:hover ~ body #with_sidebar {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #with_sidebar:before, head:hover ~ body #with_sidebar:before {
         position: absolute;
         top: 0;
@@ -977,9 +977,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1001,15 +1001,15 @@ body:not([data-scrolled-main]) #nav {
     width: 33.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #with_sidebar:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #with_sidebar, head:hover ~ body #with_sidebar {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #with_sidebar:before, head:hover ~ body #with_sidebar:before {
         position: absolute;
         top: 0;
@@ -1018,9 +1018,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1045,15 +1045,15 @@ body:not([data-scrolled-main]) #nav {
     width: 18.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #with_sidebar:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #with_sidebar, head:hover ~ body #with_sidebar {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #with_sidebar:before, head:hover ~ body #with_sidebar:before {
         position: absolute;
         top: 0;
@@ -1062,9 +1062,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1224,18 +1224,18 @@ body:not([data-scrolled-main]) #nav {
       width: 90rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #index #index_news_section > .container > .items:after,
       #index #index_news_section > .container > .header:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #index #index_news_section > .container > .items, head:hover ~ body #index #index_news_section > .container > .items, head:hover ~
       #index #index_news_section > .container > .header, head:hover ~ body
       #index #index_news_section > .container > .header {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #index #index_news_section > .container > .items:before, head:hover ~ body #index #index_news_section > .container > .items:before, head:hover ~
         #index #index_news_section > .container > .header:before, head:hover ~ body
         #index #index_news_section > .container > .header:before {
@@ -1246,9 +1246,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1261,18 +1261,18 @@ body:not([data-scrolled-main]) #nav {
       width: 75rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #index #index_news_section > .container > .items:after,
       #index #index_news_section > .container > .header:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #index #index_news_section > .container > .items, head:hover ~ body #index #index_news_section > .container > .items, head:hover ~
       #index #index_news_section > .container > .header, head:hover ~ body
       #index #index_news_section > .container > .header {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #index #index_news_section > .container > .items:before, head:hover ~ body #index #index_news_section > .container > .items:before, head:hover ~
         #index #index_news_section > .container > .header:before, head:hover ~ body
         #index #index_news_section > .container > .header:before {
@@ -1283,9 +1283,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1298,18 +1298,18 @@ body:not([data-scrolled-main]) #nav {
       width: 60rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #index #index_news_section > .container > .items:after,
       #index #index_news_section > .container > .header:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #index #index_news_section > .container > .items, head:hover ~ body #index #index_news_section > .container > .items, head:hover ~
       #index #index_news_section > .container > .header, head:hover ~ body
       #index #index_news_section > .container > .header {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #index #index_news_section > .container > .items:before, head:hover ~ body #index #index_news_section > .container > .items:before, head:hover ~
         #index #index_news_section > .container > .header:before, head:hover ~ body
         #index #index_news_section > .container > .header:before {
@@ -1320,9 +1320,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1335,18 +1335,18 @@ body:not([data-scrolled-main]) #nav {
       width: 33.75rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #index #index_news_section > .container > .items:after,
       #index #index_news_section > .container > .header:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #index #index_news_section > .container > .items, head:hover ~ body #index #index_news_section > .container > .items, head:hover ~
       #index #index_news_section > .container > .header, head:hover ~ body
       #index #index_news_section > .container > .header {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #index #index_news_section > .container > .items:before, head:hover ~ body #index #index_news_section > .container > .items:before, head:hover ~
         #index #index_news_section > .container > .header:before, head:hover ~ body
         #index #index_news_section > .container > .header:before {
@@ -1357,9 +1357,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1372,18 +1372,18 @@ body:not([data-scrolled-main]) #nav {
       width: 18.75rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #index #index_news_section > .container > .items:after,
       #index #index_news_section > .container > .header:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #index #index_news_section > .container > .items, head:hover ~ body #index #index_news_section > .container > .items, head:hover ~
       #index #index_news_section > .container > .header, head:hover ~ body
       #index #index_news_section > .container > .header {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #index #index_news_section > .container > .items:before, head:hover ~ body #index #index_news_section > .container > .items:before, head:hover ~
         #index #index_news_section > .container > .header:before, head:hover ~ body
         #index #index_news_section > .container > .header:before {
@@ -1394,9 +1394,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1471,18 +1471,18 @@ body:not([data-scrolled-main]) #nav {
     width: 90rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #about #whats_takarock_14 > .container:after,
     #about #histories_header > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #about #whats_takarock_14 > .container, head:hover ~ body #about #whats_takarock_14 > .container, head:hover ~
     #about #histories_header > .container, head:hover ~ body
     #about #histories_header > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #whats_takarock_14 > .container:before, head:hover ~ body #about #whats_takarock_14 > .container:before, head:hover ~
       #about #histories_header > .container:before, head:hover ~ body
       #about #histories_header > .container:before {
@@ -1493,9 +1493,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1508,18 +1508,18 @@ body:not([data-scrolled-main]) #nav {
     width: 75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #about #whats_takarock_14 > .container:after,
     #about #histories_header > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #about #whats_takarock_14 > .container, head:hover ~ body #about #whats_takarock_14 > .container, head:hover ~
     #about #histories_header > .container, head:hover ~ body
     #about #histories_header > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #whats_takarock_14 > .container:before, head:hover ~ body #about #whats_takarock_14 > .container:before, head:hover ~
       #about #histories_header > .container:before, head:hover ~ body
       #about #histories_header > .container:before {
@@ -1530,9 +1530,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1545,18 +1545,18 @@ body:not([data-scrolled-main]) #nav {
     width: 60rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #about #whats_takarock_14 > .container:after,
     #about #histories_header > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #about #whats_takarock_14 > .container, head:hover ~ body #about #whats_takarock_14 > .container, head:hover ~
     #about #histories_header > .container, head:hover ~ body
     #about #histories_header > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #whats_takarock_14 > .container:before, head:hover ~ body #about #whats_takarock_14 > .container:before, head:hover ~
       #about #histories_header > .container:before, head:hover ~ body
       #about #histories_header > .container:before {
@@ -1567,9 +1567,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1582,18 +1582,18 @@ body:not([data-scrolled-main]) #nav {
     width: 33.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #about #whats_takarock_14 > .container:after,
     #about #histories_header > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #about #whats_takarock_14 > .container, head:hover ~ body #about #whats_takarock_14 > .container, head:hover ~
     #about #histories_header > .container, head:hover ~ body
     #about #histories_header > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #whats_takarock_14 > .container:before, head:hover ~ body #about #whats_takarock_14 > .container:before, head:hover ~
       #about #histories_header > .container:before, head:hover ~ body
       #about #histories_header > .container:before {
@@ -1604,9 +1604,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1619,18 +1619,18 @@ body:not([data-scrolled-main]) #nav {
     width: 18.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #about #whats_takarock_14 > .container:after,
     #about #histories_header > .container:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #about #whats_takarock_14 > .container, head:hover ~ body #about #whats_takarock_14 > .container, head:hover ~
     #about #histories_header > .container, head:hover ~ body
     #about #histories_header > .container {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #whats_takarock_14 > .container:before, head:hover ~ body #about #whats_takarock_14 > .container:before, head:hover ~
       #about #histories_header > .container:before, head:hover ~ body
       #about #histories_header > .container:before {
@@ -1641,9 +1641,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -1773,15 +1773,15 @@ body:not([data-scrolled-main]) #nav {
       width: 90rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories > .container, head:hover ~ body #about #histories > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories > .container:before, head:hover ~ body #about #histories > .container:before {
           position: absolute;
           top: 0;
@@ -1790,9 +1790,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1804,15 +1804,15 @@ body:not([data-scrolled-main]) #nav {
       width: 75rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories > .container, head:hover ~ body #about #histories > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories > .container:before, head:hover ~ body #about #histories > .container:before {
           position: absolute;
           top: 0;
@@ -1821,9 +1821,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1835,15 +1835,15 @@ body:not([data-scrolled-main]) #nav {
       width: 60rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories > .container, head:hover ~ body #about #histories > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories > .container:before, head:hover ~ body #about #histories > .container:before {
           position: absolute;
           top: 0;
@@ -1852,9 +1852,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1866,15 +1866,15 @@ body:not([data-scrolled-main]) #nav {
       width: 33.75rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories > .container, head:hover ~ body #about #histories > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories > .container:before, head:hover ~ body #about #histories > .container:before {
           position: absolute;
           top: 0;
@@ -1883,9 +1883,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1897,15 +1897,15 @@ body:not([data-scrolled-main]) #nav {
       width: 18.75rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories > .container, head:hover ~ body #about #histories > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories > .container:before, head:hover ~ body #about #histories > .container:before {
           position: absolute;
           top: 0;
@@ -1914,9 +1914,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1935,15 +1935,15 @@ body:not([data-scrolled-main]) #nav {
       margin-left: 0.1875rem;
       margin-right: 3px;
       margin-right: 0.1875rem; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories .history:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories .history, head:hover ~ body #about #histories .history {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories .history:before, head:hover ~ body #about #histories .history:before {
           position: absolute;
           top: 0;
@@ -1952,9 +1952,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -1973,15 +1973,15 @@ body:not([data-scrolled-main]) #nav {
       margin-left: 0.1875rem;
       margin-right: 3px;
       margin-right: 0.1875rem; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories .history:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories .history, head:hover ~ body #about #histories .history {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories .history:before, head:hover ~ body #about #histories .history:before {
           position: absolute;
           top: 0;
@@ -1990,9 +1990,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2011,15 +2011,15 @@ body:not([data-scrolled-main]) #nav {
       margin-left: 0.1875rem;
       margin-right: 3px;
       margin-right: 0.1875rem; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories .history:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories .history, head:hover ~ body #about #histories .history {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories .history:before, head:hover ~ body #about #histories .history:before {
           position: absolute;
           top: 0;
@@ -2028,9 +2028,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2049,15 +2049,15 @@ body:not([data-scrolled-main]) #nav {
       margin-left: 0.1875rem;
       margin-right: 3px;
       margin-right: 0.1875rem; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories .history:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories .history, head:hover ~ body #about #histories .history {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories .history:before, head:hover ~ body #about #histories .history:before {
           position: absolute;
           top: 0;
@@ -2066,9 +2066,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2087,15 +2087,15 @@ body:not([data-scrolled-main]) #nav {
       margin-left: 0.1875rem;
       margin-right: 3px;
       margin-right: 0.1875rem; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #about #histories .history:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #about #histories .history, head:hover ~ body #about #histories .history {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #about #histories .history:before, head:hover ~ body #about #histories .history:before {
           position: absolute;
           top: 0;
@@ -2104,9 +2104,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2168,15 +2168,15 @@ body:not([data-scrolled-main]) #nav {
     width: 67.5rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #booth .booth_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #booth .booth_section > .items, head:hover ~ body #booth .booth_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #booth .booth_section > .items:before, head:hover ~ body #booth .booth_section > .items:before {
         position: absolute;
         top: 0;
@@ -2185,9 +2185,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2199,15 +2199,15 @@ body:not([data-scrolled-main]) #nav {
     width: 56.25rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #booth .booth_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #booth .booth_section > .items, head:hover ~ body #booth .booth_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #booth .booth_section > .items:before, head:hover ~ body #booth .booth_section > .items:before {
         position: absolute;
         top: 0;
@@ -2216,9 +2216,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2230,15 +2230,15 @@ body:not([data-scrolled-main]) #nav {
     width: 45rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #booth .booth_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #booth .booth_section > .items, head:hover ~ body #booth .booth_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #booth .booth_section > .items:before, head:hover ~ body #booth .booth_section > .items:before {
         position: absolute;
         top: 0;
@@ -2247,9 +2247,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2261,15 +2261,15 @@ body:not([data-scrolled-main]) #nav {
     width: 33.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #booth .booth_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #booth .booth_section > .items, head:hover ~ body #booth .booth_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #booth .booth_section > .items:before, head:hover ~ body #booth .booth_section > .items:before {
         position: absolute;
         top: 0;
@@ -2278,9 +2278,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2292,15 +2292,15 @@ body:not([data-scrolled-main]) #nav {
     width: 18.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #booth .booth_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #booth .booth_section > .items, head:hover ~ body #booth .booth_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #booth .booth_section > .items:before, head:hover ~ body #booth .booth_section > .items:before {
         position: absolute;
         top: 0;
@@ -2309,9 +2309,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2351,15 +2351,15 @@ body:not([data-scrolled-main]) #nav {
     width: 67.5rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #stage .stage_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #stage .stage_section > .items, head:hover ~ body #stage .stage_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #stage .stage_section > .items:before, head:hover ~ body #stage .stage_section > .items:before {
         position: absolute;
         top: 0;
@@ -2368,9 +2368,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2382,15 +2382,15 @@ body:not([data-scrolled-main]) #nav {
     width: 56.25rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #stage .stage_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #stage .stage_section > .items, head:hover ~ body #stage .stage_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #stage .stage_section > .items:before, head:hover ~ body #stage .stage_section > .items:before {
         position: absolute;
         top: 0;
@@ -2399,9 +2399,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2413,15 +2413,15 @@ body:not([data-scrolled-main]) #nav {
     width: 45rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #stage .stage_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #stage .stage_section > .items, head:hover ~ body #stage .stage_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #stage .stage_section > .items:before, head:hover ~ body #stage .stage_section > .items:before {
         position: absolute;
         top: 0;
@@ -2430,9 +2430,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2444,15 +2444,15 @@ body:not([data-scrolled-main]) #nav {
     width: 33.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #stage .stage_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #stage .stage_section > .items, head:hover ~ body #stage .stage_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #stage .stage_section > .items:before, head:hover ~ body #stage .stage_section > .items:before {
         position: absolute;
         top: 0;
@@ -2461,9 +2461,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2475,15 +2475,15 @@ body:not([data-scrolled-main]) #nav {
     width: 18.75rem;
     margin-left: auto;
     margin-right: auto; }
-    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+    /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
     #stage .stage_section > .items:after {
       content: " ";
       display: block;
       clear: both; }
-    /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+    /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
     head:hover ~ #stage .stage_section > .items, head:hover ~ body #stage .stage_section > .items {
       position: relative; }
-      /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #stage .stage_section > .items:before, head:hover ~ body #stage .stage_section > .items:before {
         position: absolute;
         top: 0;
@@ -2492,9 +2492,9 @@ body:not([data-scrolled-main]) #nav {
         right: 0;
         content: " ";
         z-index: 998;
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
         background-size: 30px, 100% 24px;
         background-origin: content-box, border-box;
         background-clip: content-box, border-box;
@@ -2595,15 +2595,15 @@ body:not([data-scrolled-main]) #nav {
       width: 67.5rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #areamap > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #areamap > .container, head:hover ~ body #areamap > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #areamap > .container:before, head:hover ~ body #areamap > .container:before {
           position: absolute;
           top: 0;
@@ -2612,9 +2612,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2656,15 +2656,15 @@ body:not([data-scrolled-main]) #nav {
       width: 56.25rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #areamap > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #areamap > .container, head:hover ~ body #areamap > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #areamap > .container:before, head:hover ~ body #areamap > .container:before {
           position: absolute;
           top: 0;
@@ -2673,9 +2673,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2717,15 +2717,15 @@ body:not([data-scrolled-main]) #nav {
       width: 45rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #areamap > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #areamap > .container, head:hover ~ body #areamap > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #areamap > .container:before, head:hover ~ body #areamap > .container:before {
           position: absolute;
           top: 0;
@@ -2734,9 +2734,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2778,15 +2778,15 @@ body:not([data-scrolled-main]) #nav {
       width: 18.75rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #areamap > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #areamap > .container, head:hover ~ body #areamap > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #areamap > .container:before, head:hover ~ body #areamap > .container:before {
           position: absolute;
           top: 0;
@@ -2795,9 +2795,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
@@ -2827,15 +2827,15 @@ body:not([data-scrolled-main]) #nav {
       width: 11.25rem;
       margin-left: auto;
       margin-right: auto; }
-      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+      /* line 12, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       #areamap > .container:after {
         content: " ";
         display: block;
         clear: both; }
-      /* line 67, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+      /* line 71, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
       head:hover ~ #areamap > .container, head:hover ~ body #areamap > .container {
         position: relative; }
-        /* line 70, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.2/sass/susy/language/susy/_background.scss */
+        /* line 74, /home/travis/build/seisahachioji/takarock14/vendor/bundle/ruby/2.1.0/gems/susy-2.1.3/sass/susy/language/susy/_background.scss */
         head:hover ~ #areamap > .container:before, head:hover ~ body #areamap > .container:before {
           position: absolute;
           top: 0;
@@ -2844,9 +2844,9 @@ body:not([data-scrolled-main]) #nav {
           right: 0;
           content: " ";
           z-index: 998;
-          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+          background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 0, 0, 0.25) 10%, rgba(255, 77, 77, 0.25) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
           background-size: 30px, 100% 24px;
           background-origin: content-box, border-box;
           background-clip: content-box, border-box;
