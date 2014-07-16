@@ -11,6 +11,9 @@
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       @include about-container-sizing(square-pc);
     }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include about-container-sizing(tablet);
+    }
   }
 }
 
@@ -102,6 +105,9 @@
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       @include about-container-sizing(square-pc);
     }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include about-container-sizing(tablet);
+    }
   }
   .history {
     @include breakpoint($layout-default-breakpoint) {
@@ -111,6 +117,10 @@
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       @include about-container-sizing(square-pc);
       @include about-history-item-sizing(square-pc);
+    }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include about-container-sizing(tablet);
+      @include about-history-item-sizing(tablet);
     }
     >.container {
       //@include padding-leader(2);

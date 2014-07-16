@@ -8,6 +8,10 @@
       @include areamap-contaier-sizing(square-pc);
       @include areamap-column-sizing(square-pc);
     }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include areamap-contaier-sizing(tablet);
+      @include areamap-column-sizing(tablet);
+    }
     @include padding-leader(3);
     @include padding-trailer(3);
     >.left {

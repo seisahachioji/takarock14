@@ -35,6 +35,14 @@
         height:rhythm(18);
       }
     }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include padding-leader(3);
+      @include padding-trailer(3);
+      @include pad(8);
+      iframe {
+        height:rhythm(14);
+      }
+    }
     iframe {
       display:block;
       width:100%;
@@ -50,6 +58,9 @@
         @include index-newssection-container-sizing;
       }
       @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+        @include index-newssection-container-sizing;
+      }
+      @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
         @include index-newssection-container-sizing;
       }
     }
@@ -69,6 +80,9 @@
     }
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       @include index-newscard-sizing(square-pc);
+    }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include index-newscard-sizing(tablet);
     }
     >.container {
       @include leader(1);

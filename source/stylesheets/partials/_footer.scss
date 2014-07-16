@@ -35,6 +35,18 @@
           @include span($right-span of $max-span);
         }
       }
+      @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+        @include container;
+        $max-span:   susy-get(columns);
+        $right-span: 8;
+        $left-span:  $max-span - $right-span;
+        >.left {
+          @include span($left-span of $max-span);
+        }
+        >.right {
+          @include span($right-span of $max-span);
+        }
+      }
       @include reset-list;
       $column-padding:1;
       $footer-column-real-rhythm:$footer-column-rhythm - ($column-padding * 2);

@@ -5,6 +5,9 @@
   @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
     @include with-sidebar-sizing(square-pc);
   }
+  @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+    @include with-sidebar-sizing(tablet);
+  }
   
   >#left {
     

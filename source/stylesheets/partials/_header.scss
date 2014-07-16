@@ -25,6 +25,9 @@ $header-rhythm:3;
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       @include container;
     }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include container;
+    }
   }
   .background {
     position:absolute;

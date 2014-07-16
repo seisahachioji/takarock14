@@ -20,6 +20,9 @@
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       @include ws-cardslayout-container-sizing(square-pc);
     }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include ws-cardslayout-container-sizing(tablet);
+    }
   }
 }
 .booth_card {
@@ -28,6 +31,9 @@
   }
   @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
     @include ws-cardslayout-card-sizing(square-pc);
+  }
+  @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+    @include ws-cardslayout-card-sizing(tablet);
   }
   //@include span($with-sidebar-left-span nest);
   >.container {

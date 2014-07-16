@@ -36,10 +36,18 @@ $default-transition-duration: .25s;
 
 @import 'susy';
 
+
 $layout-default-breakpoint: container($susy);
 
 $layout-square-pc: 40;
-$layout-square-pc-breakpoint:0px ($layout-default-breakpoint - 1px);
+$layout-square-pc-max-width: container($layout-square-pc);
+
+$layout-tablet: 32;
+$layout-tablet-max-width: container($layout-tablet);
+
+$layout-square-pc-breakpoint:$layout-square-pc-max-width ($layout-default-breakpoint - 1px);
+$layout-tablet-breakpoint:0px ($layout-square-pc-max-width - 1px);
+
 
 $footer-font-size:.9rem;
 $footer-rhythm:10;
@@ -50,7 +58,8 @@ $nav-rhythm:3;
 
 $with-sidebar-right-span: (
   default: 12,
-  square-pc: 10
+  square-pc: 10,
+  tablet: 8
 );
 
 @import 'colors';

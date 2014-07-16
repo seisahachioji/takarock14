@@ -22,6 +22,9 @@
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       @include container;
     }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include container;
+    }
   }
   .item {
     @include breakpoint($layout-default-breakpoint) {
@@ -29,6 +32,10 @@
       @include span($span);
     }
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      $span:(susy-get(columns) / 6);
+      @include span($span);
+    }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       $span:(susy-get(columns) / 6);
       @include span($span);
     }
