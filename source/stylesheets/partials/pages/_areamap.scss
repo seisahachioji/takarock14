@@ -24,14 +24,11 @@
     @include padding-trailer(3);
     >.left {
       >.container {
-        @include prefix(3);
-        @include suffix(1);
+        
       }
     }
     >.right {
       >.container {
-        @include prefix(1);
-        @include suffix(3);
         @include padding-leader(2);
       }
     }

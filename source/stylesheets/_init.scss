@@ -182,8 +182,22 @@ $circle-image-border-width:3px;
   @include container( with-sidebar-left-span($layout) );
 }
 @mixin areamap-column-sizing($layout: default) {
-  $left-span:20;
-  $right-span:with-sidebar-left-span(default) - $left-span;
+  $max-span:with-sidebar-left-span($layout);
+  $left-span:  20;
+  $right-span: $max-span - $left-span;
+  @if $layout == phablet or phone {
+    $left-span:  $max-span;
+    $right-span: $max-span;
+  } @else {
+    >.left>.container {
+      @include prefix(3);
+      @include suffix(1);
+    }
+    >.right>.container {
+      @include prefix(1);
+      @include suffix(3);
+    }
+  }
   >.left {
     @include span($left-span);
   }
