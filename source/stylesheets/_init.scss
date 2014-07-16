@@ -171,7 +171,11 @@ $circle-image-border-width:3px;
   @include container( with-sidebar-left-span($layout) );
 }
 @mixin ws-cardslayout-card-sizing($layout: default) {
-  $span:with-sidebar-left-span($layout) / 3;
+  $max-span:with-sidebar-left-span($layout);
+  $span:$max-span / 3;
+  @if $layout == phablet or phone {
+    $span: $max-span;
+  }
   @include span($span nest);
 }
 @mixin areamap-contaier-sizing($layout: default) {
