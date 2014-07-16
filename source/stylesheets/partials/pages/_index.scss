@@ -44,11 +44,11 @@
       }
     }
     @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
-      @include padding-leader(3);
-      @include padding-trailer(3);
-      @include pad(4);
+      @include padding-leader(2);
+      @include padding-trailer(2);
+      @include pad(2);
       iframe {
-        height:rhythm(14);
+        height:rhythm(11);
       }
     }
     @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
