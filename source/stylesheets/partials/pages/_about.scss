@@ -86,6 +86,9 @@
 @mixin about-history-item-sizing($layout: default) {
   $max-span:susy-get(columns);
   $span:$max-span / 2;
+  @if $layout == phablet or phone {
+    $span: $max-span;
+  }
   @include span($span of $max-span);
 }
 

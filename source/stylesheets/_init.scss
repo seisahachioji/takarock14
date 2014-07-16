@@ -193,5 +193,10 @@ $circle-image-border-width:3px;
 @mixin index-newscard-sizing($layout: default) {
   $max-span:susy-get(columns);
   $span:$max-span / 3;
+  
+  @if $layout == phablet or phone {
+    $span:$max-span;
+  }
+  
   @include span($span nest);
 }
