@@ -25,6 +25,12 @@
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       @include container;
     }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include container;
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include container;
+    }
   }
   .item {
     @include breakpoint($layout-default-breakpoint) {
@@ -36,6 +42,14 @@
       @include span($span);
     }
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      $span:(susy-get(columns) / 6);
+      @include span($span);
+    }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      $span:(susy-get(columns) / 6);
+      @include span($span);
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
       $span:(susy-get(columns) / 6);
       @include span($span);
     }

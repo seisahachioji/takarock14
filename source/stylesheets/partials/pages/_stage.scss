@@ -23,6 +23,12 @@
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       @include ws-cardslayout-container-sizing(tablet);
     }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include ws-cardslayout-container-sizing(phablet);
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include ws-cardslayout-container-sizing(phone);
+    }
   }
 }
 .stage_card {
@@ -34,6 +40,12 @@
   }
   @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
     @include ws-cardslayout-card-sizing(tablet);
+  }
+  @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+    @include ws-cardslayout-card-sizing(phablet);
+  }
+  @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+    @include ws-cardslayout-card-sizing(phone);
   }
   //@include span($with-sidebar-left-span nest);
   >.container {

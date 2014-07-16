@@ -12,6 +12,14 @@
       @include areamap-contaier-sizing(tablet);
       @include areamap-column-sizing(tablet);
     }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include areamap-contaier-sizing(phablet);
+      @include areamap-column-sizing(phablet);
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include areamap-contaier-sizing(phone);
+      @include areamap-column-sizing(phone);
+    }
     @include padding-leader(3);
     @include padding-trailer(3);
     >.left {

@@ -28,6 +28,12 @@ $header-rhythm:3;
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       @include container;
     }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include container;
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include container;
+    }
   }
   .background {
     position:absolute;

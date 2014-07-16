@@ -1,3 +1,15 @@
+@mixin footer-sizing($layout: default) {
+  @include container;
+  $max-span:   susy-get(columns);
+  $right-span: 8;
+  $left-span:  $max-span - $right-span;
+  >.left {
+    @include span($left-span of $max-span);
+  }
+  >.right {
+    @include span($right-span of $max-span);
+  }
+}
 & {
   & {
     background-color:$footer-background-color;
@@ -12,40 +24,19 @@
   >.container {
     >.columns {
       @include breakpoint($layout-default-breakpoint) {
-        @include container;
-        $max-span:   susy-get(columns);
-        $right-span: 8;
-        $left-span:  $max-span - $right-span;
-        >.left {
-          @include span($left-span of $max-span);
-        }
-        >.right {
-          @include span($right-span of $max-span);
-        }
+        @include footer-sizing(default);
       }
       @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
-        @include container;
-        $max-span:   susy-get(columns);
-        $right-span: 8;
-        $left-span:  $max-span - $right-span;
-        >.left {
-          @include span($left-span of $max-span);
-        }
-        >.right {
-          @include span($right-span of $max-span);
-        }
+        @include footer-sizing(square-pc);
       }
       @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
-        @include container;
-        $max-span:   susy-get(columns);
-        $right-span: 8;
-        $left-span:  $max-span - $right-span;
-        >.left {
-          @include span($left-span of $max-span);
-        }
-        >.right {
-          @include span($right-span of $max-span);
-        }
+        @include footer-sizing(tablet);
+      }
+      @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+        @include footer-sizing(phablet);
+      }
+      @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+        @include footer-sizing(phone);
       }
       @include reset-list;
       $column-padding:1;

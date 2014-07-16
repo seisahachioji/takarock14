@@ -14,6 +14,12 @@
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       @include about-container-sizing(tablet);
     }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include about-container-sizing(phablet);
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include about-container-sizing(phone);
+    }
   }
 }
 
@@ -108,6 +114,12 @@
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       @include about-container-sizing(tablet);
     }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include about-container-sizing(phablet);
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include about-container-sizing(phone);
+    }
   }
   .history {
     @include breakpoint($layout-default-breakpoint) {
@@ -121,6 +133,14 @@
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       @include about-container-sizing(tablet);
       @include about-history-item-sizing(tablet);
+    }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include about-container-sizing(phablet);
+      @include about-history-item-sizing(phablet);
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include about-container-sizing(phone);
+      @include about-history-item-sizing(phone);
     }
     >.container {
       //@include padding-leader(2);

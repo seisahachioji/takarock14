@@ -8,6 +8,12 @@
   @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
     @include with-sidebar-sizing(tablet);
   }
+  @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+    @include with-sidebar-sizing(phablet);
+  }
+  @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+    @include with-sidebar-sizing(phone);
+  }
   
   >#left {
     
