@@ -23,3 +23,4 @@ gem 'breakpoint', '~> 2.4.2'
 gem "susy"
 gem "middleman-blog"
 gem "nokogiri"
+gem "travis"
