@@ -154,7 +154,7 @@ $circle-image-border-width:3px;
   @include container;
   $left-span:  with-sidebar-left-span($layout);
   $right-span: with-sidebar-right-span($layout);
-  @if $layout == phablet or phone {
+  @if $layout == phablet or $layout == phone {
     $left-span: susy-get(columns);
     $right-span:0;
     >#sidebar {
@@ -176,7 +176,7 @@ $circle-image-border-width:3px;
 }
 @mixin ws-cardslayout-container-sizing($layout: default) {
   $span: with-sidebar-left-span($layout);
-  @if $layout == phablet or phone {
+  @if $layout == phablet or $layout == phone {
     @include container;
   } @else {
     @include container($span);
@@ -185,7 +185,7 @@ $circle-image-border-width:3px;
 @mixin ws-cardslayout-card-sizing($layout: default) {
   $max-span:with-sidebar-left-span($layout);
   $span:$max-span / 3;
-  @if $layout == phablet or phone {
+  @if $layout == phablet or $layout == phone {
     $span:susy-get(columns);
     >.container {
       @include squish(1);
@@ -204,7 +204,7 @@ $circle-image-border-width:3px;
   $max-span:with-sidebar-left-span($layout);
   $left-span:  20;
   $right-span: $max-span - $left-span;
-  @if $layout == phablet or phone {
+  @if $layout == phablet or $layout == phone {
     $left-span:  $max-span;
     $right-span: $max-span;
   } @else {
@@ -231,7 +231,7 @@ $circle-image-border-width:3px;
   $max-span:susy-get(columns);
   $span:$max-span / 3;
   
-  @if $layout == phablet or phone {
+  @if $layout == phablet or $layout == phone {
     $span:$max-span;
   }
   
