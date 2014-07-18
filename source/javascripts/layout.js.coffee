@@ -21,3 +21,14 @@ $ ->
     mainPosition = $('#mainborder').offset().top;
     onscroll()
   )()
+  $('#nav .pulldown').on 'click', (e) ->
+    attrName = 'data-clicked-pulldown'
+    nav = $('#nav')
+    isPulldownClicked = false
+    attr = $(nav).attr(attrName)
+    if attr?
+      isPulldownClicked = true
+    if !isPulldownClicked
+      $(nav).attr attrName, attrName
+    else
+      $(nav).removeAttr attrName

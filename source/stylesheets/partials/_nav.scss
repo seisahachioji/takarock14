@@ -57,14 +57,17 @@
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       @include container;
     }
+    /*
     @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
       @include container;
     }
     @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
       @include container;
     }
+    */
   }
   .item {
+    position:relative;
     @include breakpoint($layout-default-breakpoint) {
       $span:(susy-get(columns) / 6);
       @include span($span);
@@ -107,6 +110,16 @@
     .icon.logo {
       background-image:url('../images/seisa.notext.w.png');
     }
+    .pulldown {
+      display:block;
+      position:absolute;
+      top:0;bottom:0;
+      left:auto;right:0;
+      @include padding-leader(1);
+      @include padding-trailer(1);
+      width:rhythm(3);
+      text-align:center;
+    }
   }
 }
 
@@ -116,7 +129,8 @@
   @include transition-timing-function(ease);
 }
 @include breakpoint($layout-phone-phablet-breakpoint) {
-  &:hover {
+  &:hover,
+  &[data-clicked-pulldown] {
     color:$nav-color !important;
     background-color:$nav-background-color !important;
   }

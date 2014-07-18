@@ -2,6 +2,9 @@ nav#nav
   ul.container
     - data.conf.nav.items.each do |item|
       li.item
+        - if item.type && item.type == 'logo'
+          span.pulldown
+            span.fa.fa-navicon
         a.container href=url_for(item.href)
           - if !item.type || item.type == 'item'
             span.text
