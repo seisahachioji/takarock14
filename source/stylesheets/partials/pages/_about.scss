@@ -79,6 +79,14 @@
         margin-top:rhythm(2);
         @include circle-image-sizing($rtm);
       }
+      @include breakpoint($layout-phone-max-width $layout-phone-min-width) {
+        &.first,
+        &.second,
+        &.third,
+        &.fourth {
+          display:none;
+        }
+      }
     }
   }
 }
