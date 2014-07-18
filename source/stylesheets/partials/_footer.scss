@@ -2,6 +2,9 @@
   @include container;
   $max-span:   susy-get(columns);
   $right-span: 8;
+  @if $layout == phone {
+    $right-span:4;
+  }
   $left-span:  $max-span - $right-span;
   >.left {
     @include span($left-span of $max-span);
