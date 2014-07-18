@@ -36,26 +36,34 @@ $default-transition-duration: .25s;
 
 @import 'susy';
 
+/* * * * * * * * * * * * */
 
 $layout-default-breakpoint: container($susy);
 
 $layout-square-pc: 40;
 $layout-square-pc-max-width: container($layout-square-pc);
+$layout-square-pc-min-width: $layout-default-breakpoint - 1px;
 
 $layout-tablet: 32;
 $layout-tablet-max-width: container($layout-tablet);
+$layout-tablet-min-width: $layout-square-pc-max-width - 1px;
 
 $layout-phablet: 18;
 $layout-phablet-max-width: container($layout-phablet);
+$layout-phablet-min-width: $layout-tablet-max-width - 1px;
 
 $layout-phone: 10;
-$layout-phone-max-width: container($layout-phone);
+$layout-phone-max-width: 0px;
+$layout-phone-min-width: $layout-phablet-max-width - 1px;
 
-$layout-square-pc-breakpoint:$layout-square-pc-max-width ($layout-default-breakpoint - 1px);
-$layout-tablet-breakpoint:$layout-tablet-max-width ($layout-square-pc-max-width - 1px);
-$layout-phablet-breakpoint:$layout-phablet-max-width ($layout-tablet-max-width - 1px);
-$layout-phone-breakpoint:0px ($layout-phablet-max-width - 1px);
+$layout-square-pc-breakpoint:$layout-square-pc-max-width $layout-square-pc-min-width;
+$layout-tablet-breakpoint:$layout-tablet-max-width $layout-tablet-min-width;
+$layout-phablet-breakpoint:$layout-phablet-max-width $layout-phablet-min-width;
+$layout-phone-breakpoint:$layout-phone-max-width $layout-phone-min-width;
 
+$layout-phone-phablet-breakpoint: $layout-phone-max-width $layout-phablet-min-width;
+
+/* * * * * * * * * * * * */
 
 $footer-font-size:.9rem;
 $footer-rhythm:10;

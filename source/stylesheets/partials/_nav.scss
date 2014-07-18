@@ -5,6 +5,38 @@
     bottom:auto;
     z-index:$nav-z-index;
   }
+  & {
+    /* * * * */
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      .item {
+        /*
+        $span:(susy-get(columns) / 6);
+        @include span($span);
+        */
+      }
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      .item {
+        /*
+        $span:(susy-get(columns) / 6);
+        @include span($span);
+        */
+      }
+    }
+    @include breakpoint($layout-phone-phablet-breakpoint) {
+      &:hover {
+        
+      }
+      &:not(:hover) {
+        .item {
+          &:not(:first-child) {
+            display:none;
+          }
+        }
+      }
+    }
+    /* * * * */
+  }
   ul {
     list-style-type:none;
     margin:0;
@@ -45,14 +77,6 @@
       $span:(susy-get(columns) / 6);
       @include span($span);
     }
-    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
-      $span:(susy-get(columns) / 6);
-      @include span($span);
-    }
-    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
-      $span:(susy-get(columns) / 6);
-      @include span($span);
-    }
     >.container {
       display:block;
       //height:$nav-height;
@@ -90,6 +114,12 @@
   @include transition-property(color,background-color,box-shadow,text-shadow);
   @include transition-duration;
   @include transition-timing-function(ease);
+}
+@include breakpoint($layout-phone-phablet-breakpoint) {
+  &:hover {
+    color:$nav-color !important;
+    background-color:$nav-background-color !important;
+  }
 }
 body[data-scrolled-main] & {
   color:$nav-color;
