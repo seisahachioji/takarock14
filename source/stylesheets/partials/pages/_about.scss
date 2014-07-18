@@ -86,10 +86,15 @@
 @mixin about-history-item-sizing($layout: default) {
   $max-span:susy-get(columns);
   $span:$max-span / 2;
+  $pad: 3;
   @if $layout == phablet or $layout == phone {
     $span: $max-span;
+    $pad:1;
   }
   @include span($span of $max-span);
+  >.container {
+    @include pad($pad);
+  }
 }
 
 #histories {
@@ -148,7 +153,7 @@
     >.container {
       //@include padding-leader(2);
       @include padding-trailer(2);
-      @include pad(3);
+      //@include pad(3);
     }
     .content {
       h1 {
