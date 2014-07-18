@@ -20,10 +20,25 @@
   $(window).on('scroll', onscroll);
 
   $(function() {
-    return (function() {
+    (function() {
       mainPosition = $('#mainborder').offset().top;
       return onscroll();
     })();
+    return $('#nav .pulldown').on('click', function(e) {
+      var attr, attrName, isPulldownClicked, nav;
+      attrName = 'data-clicked-pulldown';
+      nav = $('#nav');
+      isPulldownClicked = false;
+      attr = $(nav).attr(attrName);
+      if (attr != null) {
+        isPulldownClicked = true;
+      }
+      if (!isPulldownClicked) {
+        return $(nav).attr(attrName, attrName);
+      } else {
+        return $(nav).removeAttr(attrName);
+      }
+    });
   });
 
 }).call(this);
