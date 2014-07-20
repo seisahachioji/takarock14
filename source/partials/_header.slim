@@ -1,13 +1,23 @@
 - title = data.conf.title
+- background_src = 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2505.fixed.JPG'
+- hdata = Hash.new
+
 - if current_page.data.hdata
   - hdata = current_page.data.hdata
-  - if hdata.title
-    - title = hdata.title
+
+- if hdata.has_key?(:title)
+  title = hdata.title
 - elsif current_page.data.title
   - title = current_page.data.title
+
+- if hdata.has_key?(:top_image_src)
+  - background_src = hdata.top_image_src
+- elsif current_page.data.top_image_src
+  - background_src = current_page.data.top_image_src
 header#header
   div.container
-    div.background style="background-image:url(http://www.seisa.ed.jp/takao/takarock13/img/IMGP2505.fixed.JPG);"
+    - style = "background-image:url(" + url_for(background_src) + ");"
+    div.background style=style
     div.content
       h1
         = title
