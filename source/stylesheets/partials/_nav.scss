@@ -73,17 +73,18 @@
   }
   .item {
     position:relative;
+    font-weight:bold;
     @include breakpoint($layout-default-breakpoint) {
       $span:(susy-get(columns) / 6);
-      @include span($span);
+      @include span($span nest);
     }
     @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
       $span:(susy-get(columns) / 6);
-      @include span($span);
+      @include span($span nest);
     }
     @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
       $span:(susy-get(columns) / 6);
-      @include span($span);
+      @include span($span nest);
     }
     >.container {
       display:block;
@@ -126,6 +127,15 @@
       text-align:center;
       @include adjust-font-size-to(1.25rem);
       cursor:pointer;
+    }
+    & {
+      @include single-transition(background-color);
+      &:not(:hover) {
+        background-color: transparentize($nav-hover-background-color,1) ;
+      }
+      &:hover {
+        background-color: transparentize($nav-hover-background-color,0) ;
+      }
     }
   }
 }
