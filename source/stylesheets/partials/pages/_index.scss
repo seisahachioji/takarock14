@@ -117,5 +117,8 @@
       @include trailer(1);
       @include squish(1);
     }
+    .content {
+      min-height:rhythm(7);
+    }
   }
 }
