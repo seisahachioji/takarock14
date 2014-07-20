@@ -2,10 +2,22 @@ nav:
   items:
     - text: "GitHub"
       href: "https://github.com/seisahachioji/takarock14"
+      fa:   "fa-github"
+    - text: "YouTube"
+      href: "https://www.youtube.com/channel/UC7i9vWDyTleh0nMWqiLf5Vg"
+      fa:   "fa-youtube-play"
+    - text: "Facebook"
+      href: "https://www.facebook.com/hachioji.gc"
+      fa:   "fa-facebook-square"
+    - text: "ブログ"
+      href: "http://seisahachi.blog.fc2.com/"
+      fa:   "fa-comment"
     - text: "校舎概要"
       href: "http://www.seisa.ed.jp/hachi/"
+      fa:   "fa-building"
     - text: "学校概要"
-      href: "http://example.com/"
+      href: "http://www.seisa.ed.jp/"
+      fa:   "fa-graduation-cap"
 link:
   items:
     - banner: "http://www.seisa.ed.jp/hachi/images/skk_logo1.png"

@@ -7,6 +7,10 @@ footer#footer
             - data.footer.nav.items.each do |item|
               li.item
                 a href=item.href
+                  span.icon
+                    - classes = ['fa']
+                    - classes.push item.fa
+                    span class=classes
                   span.text
                     = item.text
       div.right
