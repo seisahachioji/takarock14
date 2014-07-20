@@ -1,6 +1,6 @@
 = wrap_layout :with_sidebar do
+  #mainborder
   div#blog_single
-    #mainborder
     article#blog_single_article
       div.container
         /!
@@ -11,12 +11,24 @@
               a href=url_for(current_article)
                 time
                   = current_article.date.strftime( data.conf.article.dateformat.single )
+        header#article_header
+          div.container
+            div#ah_icon
+              - icon_src = 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG'
+              - if current_page.data.icon_src
+                - icon_src = current_page.data.icon_src
+              = partial "partials/circle_image", :locals => { :image_src => icon_src }
+            div#ah_info
+              a href=url_for(current_article)
+                time
+                  = current_article.date.strftime( data.conf.article.dateformat.single )
         div#article_main
           div.container
             div#article_text
               div
                 = yield
-        footer#article_footer
-          div.container
-            div.socials
-              /= partial 'partials/socials/line'
+        /!
+          footer#article_footer
+            div.container
+              div.socials
+                /= partial 'partials/socials/line'

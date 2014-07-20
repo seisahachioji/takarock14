@@ -5,6 +5,7 @@
   & {
     @include padding-trailer(2);
   }
+  /*
   #article_header {
     @include gutters;
     >.container {
@@ -14,6 +15,27 @@
     }
     h1 {
       @include adjust-font-size-to(2rem);
+    }
+  }
+  */
+  #article_header {
+    >.container {
+      @include pad(1);
+    }
+    #ah_icon {
+      @include padding-leader(3);
+      @include padding-trailer(3);
+    }
+    .circle_image {
+      @include circle-image-sizing(8);
+      margin:0 auto;
+    }
+    #ah_info {
+      text-align:right;
+      //@include horizontal-borders;
+      @include trailing-border;
+      border-color:$article-border-color;
+      @include gutters;
     }
   }
   #article_main {
@@ -27,6 +49,7 @@
     }
   }
   #article_footer {
+    display:none;
     @include horizontal-borders;
     >.container {
       /*
