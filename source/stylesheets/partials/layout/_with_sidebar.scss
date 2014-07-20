@@ -25,6 +25,7 @@
       @include padding-trailer(1);
     }
     .sidebar_list_section {
+      @include padding-trailer(1);
       >.container {
         @include reset-list;
         @include list-styling;
