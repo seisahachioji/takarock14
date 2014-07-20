@@ -37,6 +37,9 @@ a {
 }
 #main {
   padding-bottom:rhythm($footer-rhythm,$footer-font-size);
+  @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+    @include padding-trailer(1,$footer-font-size);
+  }
 }
 #footer {
   @import 'partials/footer';

@@ -2,10 +2,11 @@
   @include container;
   $max-span:   susy-get(columns);
   $right-span: 8;
-  @if $layout == phone {
-    $right-span:4;
-  }
   $left-span:  $max-span - $right-span;
+  @if $layout == phone {
+    $left-span:  $max-span;
+    $right-span: $max-span;
+  }
   >.left {
     @include span($left-span of $max-span);
   }
@@ -23,6 +24,10 @@
     position:absolute;
     top:auto;
     left:0;right:0;bottom:0;
+  }
+  @include breakpoint($layout-phone-breakpoint) {
+    position:relative !important;
+    height:auto !important;
   }
   >.container {
     >.columns {
