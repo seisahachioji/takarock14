@@ -16,11 +16,28 @@ $header-rhythm:3;
   .content {
     position:relative;
     z-index:$header-content-z-index;
-    @include padding-leader(8);
+    @include leader(6);
+    @include padding-leader(2);
     @include padding-trailer(1);
     
     @include text-shadow;
-    
+    @include background-image( linear-gradient( bottom, rgba(0,0,0,.25), rgba(0,0,0,0) ) );
+  }
+  .background {
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    background-position:center center;
+    @include background-size(cover);
+    z-index:$header-background-z-index;
+    /** /
+    & {
+      $blur:5px;
+      @include filter( blur($blur) );
+      margin:-($blur);
+    }
+    / **/
+  }
+  .content>.container {
     @include breakpoint($layout-default-breakpoint) {
       @include container;
     }
@@ -36,20 +53,6 @@ $header-rhythm:3;
     @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
       @include container;
     }
-  }
-  .background {
-    position:absolute;
-    top:0;left:0;right:0;bottom:0;
-    background-position:center center;
-    @include background-size(cover);
-    z-index:$header-background-z-index;
-    /** /
-    & {
-      $blur:5px;
-      @include filter( blur($blur) );
-      margin:-($blur);
-    }
-    / **/
   }
   h1 {
     $font-size:2rem;
