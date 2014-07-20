@@ -19,6 +19,8 @@ $header-rhythm:3;
     @include padding-leader(8);
     @include padding-trailer(1);
     
+    @include text-shadow;
+    
     @include breakpoint($layout-default-breakpoint) {
       @include container;
     }
