@@ -98,6 +98,16 @@ $with-sidebar-right-span: (
     }
   }
 }
+@mixin list-styling {
+  ul {
+    list-style-type:disc;
+  }
+  li {
+    display:list-item !important;
+    list-style-position:inside;
+    margin-left:.5em;
+  }
+}
 
 @mixin reset-text {
   h1,h2,h3,h4,h5,h6,
