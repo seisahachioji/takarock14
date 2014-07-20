@@ -1,5 +1,6 @@
 - title = data.conf.title
-- if defined? hdata
+- if current_page.data.hdata
+  - hdata = current_page.data.hdata
   - if hdata.title
     - title = hdata.title
 - elsif current_page.data.title

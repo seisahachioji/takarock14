@@ -3,13 +3,14 @@
     #mainborder
     article#blog_single_article
       div.container
-        header#article_header
-          div.container
-            h1
-              = link_to current_article.title, current_article
-            a href=url_for(current_article)
-              time
-                = current_article.date.strftime( data.conf.article.dateformat.single )
+        /!
+          header#article_header
+            div.container
+              h1
+                = link_to current_article.title, current_article
+              a href=url_for(current_article)
+                time
+                  = current_article.date.strftime( data.conf.article.dateformat.single )
         div#article_main
           div.container
             div#article_text
