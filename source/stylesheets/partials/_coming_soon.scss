@@ -1,0 +1,22 @@
+& {
+  @include reset-text;
+  &,
+  &>.container {
+    @include padding-leader(2);
+    @include padding-trailer(2);
+    @include pad(1);
+  }
+  >.container {
+    @include box-shadow;
+    background-color:$coming-soon-background-color;
+  }
+  h1,p {
+    text-align:center;
+  }
+  h1 {
+    @include adjust-font-size-to(1.5rem);
+  }
+  p {
+    @include padding-leader(1);
+  }
+}
