@@ -19,9 +19,9 @@ div#stage
   section#stage_seisa.stage_section
     header.header
       h1
-        = t(:stage_category_guest)
+        = t(:stage_category_seisa)
       div.text
-        = t(:stage_category_guest_text)
+        = t(:stage_category_seisa_text)
     - if !blog('stage').tags.has_key?('seisa') || blog('stage').tags['seisa'].length < 1
       = partial "partials/coming_soon"
     - else
