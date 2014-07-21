@@ -17,7 +17,7 @@ body {
   font-size: 1rem;
   line-height: 24px;
   line-height: 1.5rem;
-  background-color: #fcfcfc; }
+  background-color: #f9f9f9; }
 
 /* line 21, /home/travis/build/seisahachioji/takarock14/source/stylesheets/layout.css.scss */
 #wrapper {
@@ -3442,3 +3442,42 @@ body:not([data-scrolled-main]) #nav {
   font-size: 0.9rem;
   line-height: 24px;
   line-height: 1.5rem; }
+
+/* line 113, /home/travis/build/seisahachioji/takarock14/source/stylesheets/_init.scss */
+.coming_soon h1, .coming_soon h2, .coming_soon h3, .coming_soon h4, .coming_soon h5, .coming_soon h6,
+.coming_soon p, .coming_soon blockquote {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0; }
+/* line 3, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_coming_soon.scss */
+.coming_soon, .coming_soon > .container {
+  padding-top: 48px;
+  padding-top: 3rem;
+  padding-bottom: 48px;
+  padding-bottom: 3rem;
+  padding-left: 30px;
+  padding-left: 1.875rem;
+  padding-right: 30px;
+  padding-right: 1.875rem; }
+/* line 9, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_coming_soon.scss */
+.coming_soon > .container {
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.125);
+  background-color: white; }
+/* line 13, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_coming_soon.scss */
+.coming_soon h1, .coming_soon p {
+  text-align: center; }
+/* line 16, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_coming_soon.scss */
+.coming_soon h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 48px;
+  line-height: 3rem; }
+/* line 19, /home/travis/build/seisahachioji/takarock14/source/stylesheets/partials/_coming_soon.scss */
+.coming_soon p {
+  padding-top: 24px;
+  padding-top: 1.5rem; }
