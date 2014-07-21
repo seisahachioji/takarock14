@@ -1,13 +1,13 @@
 article.news_card
   div.container
     div.top
-      - style = 'background-image:url(' + article.data.top_image_src + ');'
+      - style = 'background-image:url(' + url_for(article.data.top_image_src) + ');'
       div.background style=style
-        img src=article.data.top_image_src
+        img src=url_for(article.data.top_image_src)
       - icon_src = '/images/2012/IMGP2023.JPG'
       - if article.data.icon_src
         - icon_src = article.data.icon_src
-      = partial "partials/circle_image", :locals => { :image_src => icon_src }
+      = partial "partials/circle_image", :locals => { :image_src => url_for(icon_src) }
     div.content
       header.header
         h1
