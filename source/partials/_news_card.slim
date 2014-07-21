@@ -4,7 +4,7 @@ article.news_card
       - style = 'background-image:url(' + article.data.top_image_src + ');'
       div.background style=style
         img src=article.data.top_image_src
-      - icon_src = 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG'
+      - icon_src = '/images/2012/IMGP2023.JPG'
       - if article.data.icon_src
         - icon_src = article.data.icon_src
       = partial "partials/circle_image", :locals => { :image_src => icon_src }

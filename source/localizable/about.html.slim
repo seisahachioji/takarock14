@@ -16,11 +16,11 @@ div#about
         div.content
           = t(:whats_takarock_14_text)
           div.circles
-            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['big'] }
-            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['first'] }
-            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['second'] }
-            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['third'] }
-            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['fourth'] }
+            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['big'] }
+            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['first'] }
+            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['second'] }
+            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['third'] }
+            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['fourth'] }
   - if !current_page.data.is_coming_soon
     section#histories
       div#histories_header
@@ -31,7 +31,7 @@ div#about
         section.history
           div.container
             div.content
-              = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
+              = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG' }
               h1
                 = t(:history_13_title)
               div.text
@@ -39,7 +39,7 @@ div#about
         section.history
           div.container
             div.content
-              = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
+              = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG' }
               h1
                 = t(:history_12_title)
               div.text
