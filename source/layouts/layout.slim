@@ -11,7 +11,10 @@ html
     /!meta name="viewport" content="width=1920, initial-scale=1.0"
     meta name="robots" content="noindex"
     = stylesheet_link_tag '/bower_components/normalize-css/normalize.css', '/bower_components/fontawesome/css/font-awesome.min.css'
-    = javascript_include_tag '/bower_components/jquery/dist/jquery.min.js', '/bower_components/moment/min/moment-with-langs.min.js', '/bower_components/respond/dest/respond.min.js', '/bower_components/selectivizr/selectivizr.js', '/bower_components/html5shiv/dist/html5shiv.min.js'
+    = javascript_include_tag '/bower_components/jquery/dist/jquery.min.js', '/bower_components/moment/min/moment-with-langs.min.js'
+    = javascript_include_tag '/bower_components/html5shiv/dist/html5shiv.min.js','/bower_components/respond/dest/respond.min.js' , '/bower_components/selectivizr/selectivizr.js'
+    /= javascript_include_tag '/bower_components/respond/dest/respond.min.js'
+    /= javascript_include_tag '/bower_components/css3-mediaqueries-js/css3-mediaqueries.js'
     = javascript_include_tag 'layout'
     = stylesheet_link_tag 'layout'
   body
