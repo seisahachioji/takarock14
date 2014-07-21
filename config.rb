@@ -17,9 +17,10 @@ activate :relative_assets
 ###
 
 # Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+compass_config do |config|
+  config.output_style = :expanded
+  config.line_comments = false
+end
 
 ###
 # Page options, layouts, aliases and proxies
