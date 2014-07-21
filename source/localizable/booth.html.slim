@@ -10,15 +10,21 @@ div#booth
         = t(:booth_category_food)
       div.text
         = t(:booth_category_food_text)
-    div.items
-      - blog('booth').tags['food'].each do |article|
-        = partial "partials/booth_card", :locals => { :article => article }
+    - if !blog('booth').tags.has_key?('food') || blog('booth').tags['food'].length < 1
+      = partial "partials/coming_soon"
+    - else
+      div.items
+        - blog('booth').tags['food'].each do |article|
+          = partial "partials/booth_card", :locals => { :article => article }
   section#booth_shop.booth_section
     header.header
       h1
         = t(:booth_category_shop)
       div.text
         = t(:booth_category_shop_text)
-    div.items
-      - blog('booth').tags['shop'].each do |article|
-        = partial "partials/booth_card", :locals => { :article => article }
+    - if !blog('booth').tags.has_key?('shop') || blog('booth').tags['shop'].length < 1
+      = partial "partials/coming_soon"
+    - else
+      div.items
+        - blog('booth').tags['shop'].each do |article|
+          = partial "partials/booth_card", :locals => { :article => article }
