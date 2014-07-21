@@ -1,40 +1,45 @@
 ---
 title: "About"
 #layout: with_sidebar
+is_coming_soon: true
 ---
 div#about
   div#mainborder
   section#whats_takarock_14
     div.container
-      h1
-        = t(:whats_takarock_14_title)
-      div.content
-        = t(:whats_takarock_14_text)
-        div.circles
-          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['big'] }
-          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['first'] }
-          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['second'] }
-          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['third'] }
-          = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['fourth'] }
-  section#histories
-    div#histories_header
-      div.container
+      - if current_page.data.is_coming_soon
+        = partial "partials/coming_soon"
+      - else
         h1
-          = t(:history_section_title)
-    div.container
-      section.history
+          = t(:whats_takarock_14_title)
+        div.content
+          = t(:whats_takarock_14_text)
+          div.circles
+            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['big'] }
+            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['first'] }
+            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['second'] }
+            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['third'] }
+            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG', :href => nil, :classes => ['fourth'] }
+  - if !current_page.data.is_coming_soon
+    section#histories
+      div#histories_header
         div.container
-          div.content
-            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
-            h1
-              = t(:history_13_title)
-            div.text
-              = t(:history_13_text)
-      section.history
-        div.container
-          div.content
-            = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
-            h1
-              = t(:history_12_title)
-            div.text
-              = t(:history_12_text)
+          h1
+            = t(:history_section_title)
+      div.container
+        section.history
+          div.container
+            div.content
+              = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
+              h1
+                = t(:history_13_title)
+              div.text
+                = t(:history_13_text)
+        section.history
+          div.container
+            div.content
+              = partial "partials/circle_image", :locals => { :image_src => 'http://www.seisa.ed.jp/takao/takarock13/img/IMGP2023.JPG' }
+              h1
+                = t(:history_12_title)
+              div.text
+                = t(:history_12_text)

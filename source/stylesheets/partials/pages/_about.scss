@@ -24,8 +24,10 @@
 }
 
 #whats_takarock_14 {
-  h1 {
-    display:none;
+  >.container {
+    >h1 {
+      display:none;
+    }
   }
   $padding:3;
   .content {
