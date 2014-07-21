@@ -107,7 +107,7 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-  ignore /^bower_components\/(?!fontawesome)/
+  ignore /^bower_components\/(?!(fontawesome|html5shiv))/
 end
 
 after_configuration do
