@@ -107,9 +107,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-  ignore /^bower_components\/(?!(fontawesome|html5shiv))/
+  #ignore /^bower_components\/(?!(normalize-css|jquery|moment|fontawesome|html5shiv|respond|selectivizr))/
 end
 
 after_configuration do
-  sprockets.append_path 'bower_components'
+  #sprockets.append_path 'bower_components'
 end
