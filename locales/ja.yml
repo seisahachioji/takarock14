@@ -26,9 +26,12 @@ ja:
   recent_booths: "最新ブース情報"
   recent_stages: "最新ステージ情報"
   recent_news: "ニュース"
-  stage_category_guest: "ゲストアーティスト"
+  stage_category_guest: "ゲストステージ"
   stage_category_guest_text: |-
-    今年もゲストアーティストがアツい!
+    生徒だけじゃない! 今年もゲストがアツい!
+  stage_category_seisa: "出演予定"
+  stage_category_seisa_text: |-
+    八王子と立川を中心に、星槎がステージを盛り上げます!
   areamap_text: |-
     2014年度エリアマップです。ダウンロードしてお使いください。
   download: "ダウンロード"
