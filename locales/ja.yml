@@ -1,7 +1,7 @@
 ---
 ja:
-  hello: "こんにちは!"
-  whats_takarock_14_title: "タカロックって?"
+  hello: "こんにちは！"
+  whats_takarock_14_title: "タカロックって？"
   whats_takarock_14_text: |-
     <strong>TODO: 2013から2014用に書き換える</strong><br/>
     昨年300人以上を動員した、高尾キャンパス夏の特大イベント「TAKAOROCK」が今年も始動。<br>
@@ -19,19 +19,19 @@ ja:
     親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい
   booth_category_food: "フードブース"
   booth_category_food_text: |-
-    生徒はもちろん、学外の人気店も出店します!
+    生徒はもちろん、学外の人気店も出店します！
   booth_category_shop: "ショップブース"
   booth_category_shop_text: |-
-    今年は去年よりもパワーアップしたショップがやってきます!
+    今年は去年よりもパワーアップしたショップがやってきます！
   recent_booths: "最新ブース情報"
   recent_stages: "最新ステージ情報"
   recent_news: "ニュース"
   stage_category_guest: "ゲストステージ"
   stage_category_guest_text: |-
-    生徒だけじゃない! 今年もゲストがアツい!
+    生徒だけじゃない！ 今年もゲストがアツい！
   stage_category_seisa: "出演予定"
   stage_category_seisa_text: |-
-    八王子と立川を中心に、星槎がステージを盛り上げます!
+    八王子と立川を中心に、星槎がステージを盛り上げます！
   areamap_text: |-
     2014年度エリアマップです。ダウンロードしてお使いください。
   download: "ダウンロード"
