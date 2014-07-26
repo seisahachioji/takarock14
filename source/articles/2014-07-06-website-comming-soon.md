@@ -1,5 +1,5 @@
 ---
-title: "公式サイト、近日公開予定!"
+title: "公式サイト、近日公開予定！"
 date: 2014-07-06 16:26 JST
 top_image_src: "/images/2012/IMGP1724.JPG"
 tags:
