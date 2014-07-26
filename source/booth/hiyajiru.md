@@ -6,7 +6,7 @@ tags:
 - food
 published: false
 ---
-ズドンとハマるそのウマさ!  
+ズドンとハマるそのウマさ！  
 あなたに贈る「九州」の味
 
 !READMORE
