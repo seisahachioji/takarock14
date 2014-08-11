@@ -1,0 +1,4 @@
+[submodule "preview"]
+	path = preview
+	url = https://github.com/seisahachioji/takarock14.git
+	branch = gh-pages-preview
