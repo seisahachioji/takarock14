@@ -10,7 +10,7 @@ do
   if [ $i -eq 1 ] ; then
     LOOP_BRANCH="gh-pages-preview"
   elif [ $i -eq 2 ] ; then
-    git submodule add -b "gh-pages-preview" https://github.com/S64/blog.git ./preview
+    git submodule add -b "gh-pages-preview" https://github.com/seisahachioji/takarock14.git ./preview
     git submodule update --init
     pushd preview/
     git pull origin "gh-pages-preview"
@@ -18,7 +18,7 @@ do
   fi
   git add -A
   git commit -m Update
-  git push --quiet git@github.com:S64/blog.git $LOOP_BRANCH
+  git push --quiet git@github.com:seisahachioji/takarock14.git $LOOP_BRANCH
   if [ $i -eq 1 ] ; then
     git checkout "gh-pages"
     git clean -f -d
