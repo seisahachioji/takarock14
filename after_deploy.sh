@@ -7,18 +7,15 @@ fi
 for ((i=$LOOP_INIT;i<=2;i++))
 do
   LOOP_BRANCH="gh-pages"
-  switch($i)
-    case 1:
-      LOOP_BRANCH="gh-pages-preview"
-      breaksw
-    case 2:
-      git submodule add -b "gh-pages-preview" https://github.com/S64/blog.git ./preview
-      git submodule update --init
-      pushd preview/
-      git pull origin "gh-pages-preview"
-      popd
-      breaksw
-  endsw
+  if [ $i -eq 1 ] ; then
+    LOOP_BRANCH="gh-pages-preview"
+  elif [ $i - eq 2] ; then
+    git submodule add -b "gh-pages-preview" https://github.com/S64/blog.git ./preview
+    git submodule update --init
+    pushd preview/
+    git pull origin "gh-pages-preview"
+    popd
+  fi
   git add -A
   git commit -m Update
   git push --quiet git@github.com:S64/blog.git $LOOP_BRANCH
