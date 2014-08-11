@@ -24,6 +24,7 @@ after_success:
 branches:
   only:
   - master
+  - develop
 env:
   global:
   - secure: aSGaV0g8Tnf2D5TM/hGjOwizz3CAsrEhKV4QeXpiYTWV8onEl7wP+SLHveYUTUa9AeZHTWItt0xEFcg3GhAY49L+LoEIpEAREbYj+GR2ESzIjOLcZeCAJV1Vb4rHe1EMT/qJ8/fvb+/AWneXqN/F8EaYbmx12hqU3CmyZZbZ1uE=
