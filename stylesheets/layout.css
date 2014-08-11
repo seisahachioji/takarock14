@@ -67,6 +67,7 @@ a {
   bottom: 0;
   background-position: center center;
   -moz-background-size: cover;
+  -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   z-index: 998;
@@ -491,6 +492,7 @@ a {
   display: block;
   background-position: center center;
   -moz-background-size: contain;
+  -o-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
@@ -523,6 +525,7 @@ a {
 }
 #nav .item {
   -moz-transition: background-color 0.25s;
+  -o-transition: background-color 0.25s;
   -webkit-transition: background-color 0.25s;
   transition: background-color 0.25s;
 }
@@ -534,12 +537,15 @@ a {
 }
 #nav {
   -moz-transition-property: color, background-color, box-shadow, text-shadow;
+  -o-transition-property: color, background-color, box-shadow, text-shadow;
   -webkit-transition-property: color, background-color, box-shadow, text-shadow;
   transition-property: color, background-color, box-shadow, text-shadow;
   -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
   -webkit-transition-duration: 0.25s;
   transition-duration: 0.25s;
   -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
 }
@@ -924,6 +930,7 @@ body:not([data-scrolled-main]) #nav {
   display: block;
   background-position: center center;
   -moz-background-size: contain;
+  -o-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3155,6 +3162,7 @@ body:not([data-scrolled-main]) #nav {
 #areamap .map {
   display: block;
   -moz-background-size: contain;
+  -o-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
   background-position: center center;
@@ -3345,6 +3353,7 @@ body:not([data-scrolled-main]) #nav {
   bottom: 0;
   background-position: center center;
   -moz-background-size: cover;
+  -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -3445,6 +3454,7 @@ body:not([data-scrolled-main]) #nav {
   right: 0;
   bottom: 0;
   -moz-background-size: cover;
+  -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
