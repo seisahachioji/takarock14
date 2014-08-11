@@ -1,6 +1,7 @@
 require "susy"
 require "breakpoint"
 require "tzinfo"
+require 'middleman-thumbnailer'
 
 Time.zone = "Asia/Tokyo"
 set :markdown_engine, :redcarpet
@@ -11,6 +12,19 @@ set :slim, :pretty => true, :sort_attrs => false, :format => :html5, :streaming 
 
 # Use relative URLs
 activate :relative_assets
+
+activate :thumbnailer,
+  :dimensions => {
+    :small_icon => '48x48',
+    :icon       => '64x64',
+    :large_icon => '128x128',
+    :small      => '128x72',
+    :medium     => '512x288',
+    :large      => '1024x576',
+    :hd         => '1920x1080',
+    :xlarge     => '2048x1152'
+  },
+  :include_data_thumbnails => false
 
 ###
 # Compass

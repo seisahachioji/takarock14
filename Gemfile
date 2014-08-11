@@ -10,6 +10,7 @@ gem "middleman", "~>3.3.2"
 gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-slim"
 gem "middleman-blog"
+gem "middleman-thumbnailer", :github => 'nhemsley/middleman-thumbnailer'
 
 gem "redcarpet"
 gem "sass", ">= 3.3.0"
