@@ -9,7 +9,7 @@ do
   LOOP_BRANCH="gh-pages"
   if [ $i -eq 1 ] ; then
     LOOP_BRANCH="gh-pages-preview"
-  elif [ $i - eq 2] ; then
+  elif [ $i -eq 2 ] ; then
     git submodule add -b "gh-pages-preview" https://github.com/S64/blog.git ./preview
     git submodule update --init
     pushd preview/
