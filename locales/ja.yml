@@ -1,6 +1,7 @@
 ---
 ja:
   hello: "こんにちは！"
+  preview_prefix: "[Preview] "
   whats_takarock_14_title: "タカロックって？"
   whats_takarock_14_text: |-
     <strong>TODO: 2013から2014用に書き換える</strong><br/>

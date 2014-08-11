@@ -112,5 +112,7 @@ configure :build do
 end
 
 after_configuration do
-  #sprockets.append_path 'bower_components'
+  if ENV['MM_ENV'] == 'development'
+    set :environment, :development
+  end
 end

@@ -1,12 +1,15 @@
+- previewPrefix = ''
+- if development?
+  - previewPrefix = t(:preview_prefix)
 doctype html
 html
   head
     meta charset="UTF-8"
     title
       - if current_page.data.title
-        = current_page.data.title + " | " + data.conf.title
+        = previewPrefix + current_page.data.title + " | " + data.conf.title
       - else
-        = data.conf.title
+        = previewPrefix + data.conf.title
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     /!meta name="viewport" content="width=1920, initial-scale=1.0"
     meta name="robots" content="noindex"
