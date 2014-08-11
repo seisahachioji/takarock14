@@ -8,7 +8,7 @@ div#about
   div#mainborder
   section#whats_takarock_14
     div.container
-      - if current_page.data.is_coming_soon
+      - if current_page.data.is_coming_soon && !development?
         = partial "partials/coming_soon"
       - else
         h1
