@@ -9,12 +9,8 @@ install:
 - bower install
 - bundle install
 before_script:
-- git clone --quiet --branch gh-pages "https://github.com/seisahachioji/takarock14.git"
-  build/
-- pushd build/
-- git pull --quiet -u origin gh-pages
-- git rm -rf .
-- popd
+- export $DEPLOY_BRANCH="gh-pages"
+- source ./before_script.sh
 script:
 - bundle exec middleman build
 after_success:
