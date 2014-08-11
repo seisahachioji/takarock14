@@ -14,6 +14,7 @@
   - background_src = hdata.top_image_src
 - elsif current_page.data.top_image_src
   - background_src = current_page.data.top_image_src
+- background_src = thumbnail_url(background_src,:hd)
 header#header
   div.container
     - style = "background-image:url(" + url_for(background_src) + ");"

@@ -17,6 +17,7 @@
               - icon_src = '/images/2012/IMGP2023.JPG'
               - if current_page.data.icon_src
                 - icon_src = current_page.data.icon_src
+              - icon_src = thumbnail_url(icon_src,:medium)
               = partial "partials/circle_image", :locals => { :image_src => icon_src }
             div#ah_info
               a href=url_for(current_article)

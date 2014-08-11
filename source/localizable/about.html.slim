@@ -16,11 +16,12 @@ div#about
         div.content
           = t(:whats_takarock_14_text)
           div.circles
-            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['big'] }
-            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['first'] }
-            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['second'] }
-            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['third'] }
-            = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG', :href => nil, :classes => ['fourth'] }
+            - img_src = thumbnail_url('/images/2012/IMGP2023.JPG',:medium)
+            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['big'] }
+            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['first'] }
+            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['second'] }
+            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['third'] }
+            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['fourth'] }
   - if !current_page.data.is_coming_soon
     section#histories
       div#histories_header

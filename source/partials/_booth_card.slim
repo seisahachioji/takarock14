@@ -1,10 +1,15 @@
 article.booth_card
   div.container
     div.top
-      - style = 'background-image:url(' + article.data.top_image_src + ');'
+      - imgsrc = url_for thumbnail_url(article.data.top_image_src,:medium)
+      - style = 'background-image:url(' + imgsrc + ');'
       div.background style=style
-        img src=article.data.top_image_src
-      = partial "partials/circle_image", :locals => { :image_src => '/images/2012/IMGP2023.JPG' }
+        img src=imgsrc
+      - icon_src = '/images/2012/IMGP2023.JPG'
+      - if article.data.icon_src
+        - icon_src = article.data.icon_src
+      - icon_src = url_for thumbnail_url(icon_src,:large_icon)
+      = partial "partials/circle_image", :locals => { :image_src => icon_src }
     div.content
       header.header
         h1
