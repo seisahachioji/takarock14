@@ -4,7 +4,7 @@ ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'YES'
 
 gem "wdm", "~> 0.1.0", :platforms => [:x64_mingw, :mswin, :mingw]
 gem "tzinfo-data", platforms: [:x64_mingw, :mswin, :mingw]
-gem "eventmachine", :platforms => [:x64_mingw, :mswin, :mingw], :github => "eventmachine/eventmachine"
+#gem "eventmachine", :platforms => [:x64_mingw, :mswin, :mingw], :github => "eventmachine/eventmachine"
 
 gem "middleman", "~>3.3.2"
 gem "middleman-livereload", "~> 3.1.0"
