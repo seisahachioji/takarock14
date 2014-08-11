@@ -9,7 +9,7 @@ install:
 - bower install
 - bundle install
 before_script:
-- export $DEPLOY_BRANCH="gh-pages"
+- export DEPLOY_BRANCH="gh-pages"
 - source ./before_script.sh
 script:
 - bundle exec middleman build
