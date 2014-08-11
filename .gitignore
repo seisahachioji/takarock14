@@ -4,6 +4,7 @@
 /.sass-cache
 /.cache
 /.vagrant
+/tmp
 .DS_Store
 Thumbs.db
 
