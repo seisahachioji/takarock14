@@ -7,3 +7,7 @@ tags:
 - food
 ---
 伝説の「小澤UDON」が再び！数量限定販売ですって？！
+
+!READMORE
+
+![udon.pdf](/images/booth/udon-large-1024x576.png)

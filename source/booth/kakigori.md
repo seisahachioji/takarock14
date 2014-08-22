@@ -7,3 +7,7 @@ tags:
 - food
 ---
 暑い夏には氷を食せ！Hotな体をCOOLに変えろ！！
+
+!READMORE
+
+![kakigori.pdf](/images/booth/kakigori-large-1024x576.png)

@@ -8,3 +8,7 @@ tags:
 ---
 なんだそれっ？コケ？  
 自分で作って、持ち帰りOKのワークショップ開催♪
+
+!READMORE
+
+![kokerium.pdf](/images/booth/kokerium-large-1024x576.png)

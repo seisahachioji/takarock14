@@ -8,3 +8,7 @@ tags:
 ---
 ジョンって何？食べたらわかる！『美味い！』って！  
 伝説の料理人「尽」が作る「ジョン」がココに！！
+
+!READMORE
+
+![jeon.pdf](/images/booth/jeon-large-1024x576.png)

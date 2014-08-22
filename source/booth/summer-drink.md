@@ -8,3 +8,7 @@ tags:
 ---
 TakaoRockFes.2014オリジナルドリンクが登場。  
 一杯に心をこめて。あなただけの１杯もでてくるかも・・・♪
+
+!READMORE
+
+![summer-drink.pdf](/images/booth/summer-drink-large-1024x576.png)

@@ -8,3 +8,7 @@ tags:
 ---
 高尾の山に『pataya』再び登場★  
 ここで食べずにどこで食べる？！美味パンケーキがあなたを待っている♪
+
+!READMORE
+
+![pataya.pdf](/images/booth/pataya-large-1024x576.png)

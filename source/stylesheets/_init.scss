@@ -149,7 +149,8 @@ $circle-image-border-width:3px;
     @include leader(2);
     @include trailer(1);
   }
-  p, blockquote {
+  p, blockquote,
+  p>img {
     @include leader(1);
     @include trailer(1);
   }
@@ -162,6 +163,12 @@ $circle-image-border-width:3px;
   }
   @if $set-gutters {
     @include article-text-gutters;
+  }
+  p>img {
+    display:block;
+    max-width:50%;
+    margin-left:auto;
+    margin-right:auto;
   }
 }
 @mixin article-text-gutters() {
