@@ -4,7 +4,7 @@ article.stage_card
       - imgsrc = '/images/2012/IMGP2023.JPG'
       - if article.data.top_image_src
         - imgsrc = article.data.top_image_src
-      - imgsrc = thumbnail_url(imgsrc,:medium)
+      - imgsrc = url_for thumbnail_url(imgsrc,:medium)
       - style = 'background-image:url(' + imgsrc + ');'
       div.background style=style
         img src=imgsrc
@@ -13,7 +13,7 @@ article.stage_card
         - iconsrc = article.data.icon_src
       - elsif article.data.top_image_src
         - iconsrc = article.data.top_image_src
-      - iconsrc = thumbnail_url(iconsrc,:large_icon)
+      - iconsrc = url_for thumbnail_url(iconsrc,:large_icon)
       = partial "partials/circle_image", :locals => { :image_src => iconsrc }
     div.content
       header.header
