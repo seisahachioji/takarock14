@@ -8,20 +8,21 @@ div#about
   div#mainborder
   section#whats_takarock_14
     div.container
-      - if current_page.data.is_coming_soon && !development?
+      - if false
         = partial "partials/coming_soon"
       - else
         h1
           = t(:whats_takarock_14_title)
         div.content
           = t(:whats_takarock_14_text)
-          div.circles
-            - img_src = thumbnail_url('/images/2012/IMGP2023.JPG',:medium)
-            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['big'] }
-            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['first'] }
-            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['second'] }
-            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['third'] }
-            = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['fourth'] }
+          - if !current_page.data.is_coming_soon
+            div.circles
+              - img_src = thumbnail_url('/images/2012/IMGP2023.JPG',:medium)
+              = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['big'] }
+              = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['first'] }
+              = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['second'] }
+              = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['third'] }
+              = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['fourth'] }
   - if !current_page.data.is_coming_soon
     section#histories
       div#histories_header
