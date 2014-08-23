@@ -1,10 +1,13 @@
 article.news_card
   div.container
     div.top
-      - imgsrc = url_for thumbnail_url(article.data.top_image_src,:medium)
+      - imgsrc = '/images/2012/IMGP2505.fixed.JPG'
+      - if article.data.top_image_src
+        - imgsrc = article.data.top_image_src
+      - imgsrc = url_for thumbnail_url(imgsrc,:medium)
       - style = 'background-image:url(' + imgsrc + ');'
       div.background style=style
-        img src=url_for(article.data.top_image_src)
+        img src=url_for(imgsrc)
       - icon_src = '/images/2012/IMGP2023.JPG'
       - if article.data.icon_src
         - icon_src = article.data.icon_src

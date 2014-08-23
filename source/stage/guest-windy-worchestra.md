@@ -5,6 +5,7 @@ icon_src: "/images/stage/guest-windy-worchestra.icon.jpg"
 top_image_src: "/images/stage/guest-windy-worchestra.jpg"
 tags:
 - guest
+published: false
 ---
 東京都八王子市の&quot;日本一小さい&quot;吹奏楽団「ウィンディ・ウォーケストラ」！！
 

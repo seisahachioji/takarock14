@@ -5,6 +5,7 @@ top_image_src: "/images/stage/guest-shinamayu.png"
 icon_src: "/images/stage/guest-shinamayu.icon.jpg"
 tags:
 - guest
+published: false
 ---
 立川発立川製の3ピースPOPバンド!
 
