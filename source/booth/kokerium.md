@@ -1,6 +1,6 @@
 ---
-title: "コケリウム"
-date: 2014-08-22 23:37 JST
+title: "ワークショップ大陸屋 コケリウム"
+date: 2014-08-23 19:49 JST
 top_image_src: "/images/booth/kokerium-cover.png"
 icon_src: "/images/booth/kokerium-icon.jpg"
 tags:

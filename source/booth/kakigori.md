@@ -1,6 +1,6 @@
 ---
 title: "かき氷"
-date: 2014-08-22 23:35 JST
+date: 2014-08-23 19:47 JST
 top_image_src: "/images/booth/kakigori-cover.png"
 icon_src: "/images/booth/kakigori-icon.jpg"
 tags:

@@ -1,6 +1,6 @@
 ---
-title: "うどん"
-date: 2014-08-22 23:37 JST
+title: "小澤UDON"
+date: 2014-08-23 19:51 JST
 top_image_src: "/images/booth/udon-cover.png"
 icon_src: "/images/booth/udon-icon.png"
 tags:

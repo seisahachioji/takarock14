@@ -1,6 +1,6 @@
 ---
-title: "ジョン"
-date: 2014-08-22 23:36 JST
+title: "尽のジョン"
+date: 2014-08-23 19:47 JST
 icon_src: "/images/booth/jeon-icon.jpg"
 top_image_src: "/images/booth/jeon-cover.png"
 tags:

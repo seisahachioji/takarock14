@@ -1,6 +1,6 @@
 ---
-title: "パタヤ"
-date: 2014-08-22 23:36 JST
+title: "キッチンカー pataya"
+date: 2014-08-23 19:49 JST
 icon_src: "/images/booth/pataya-icon.jpg"
 top_image_src: "/images/booth/pataya-cover.png"
 tags:

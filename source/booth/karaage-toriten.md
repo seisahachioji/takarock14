@@ -1,6 +1,6 @@
 ---
-title: "からあげ&amp;とり天"
-date: 2014-08-22 23:39 JST
+title: "大分の味 からあげ&amp;とり天"
+date: 2014-08-23 19:49 JST
 top_image_src: "/images/booth/karaage-toriten-cover.png"
 icon_src: "/images/booth/karaage-toriten-icon.jpg"
 tags:
