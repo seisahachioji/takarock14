@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "オリジナルTシャツ製作中!"
 date: 2014-08-26 12:37 JST
 top_image_src: "/images/2014-08-26/15037124551_f92393afd8_o.jpg"
