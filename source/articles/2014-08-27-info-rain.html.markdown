@@ -2,6 +2,8 @@
 published: true
 title: "雨天時の開催について"
 date: 2014-08-27 17:09 JST
+icon_src: "/images/photos/DSC_8377.JPG"
+top_image_src: "/images/photos/DSC_8375.JPG"
 tags:
 - news
 ---
@@ -20,4 +22,5 @@ tags:
 | 会場:&nbsp; | 星槎高尾ホール |
 | ブース:&nbsp; | 屋外テントを設営します |
 
+**開催時間等、他の点の変更はありません。**  
 不明な点がありましたら、[星槎国際高等学校 八王子学習センター](http://seisa.ed.jp/hachi/access/) へお問い合わせください。
