@@ -1,10 +1,10 @@
 ---
 title: "八王子踊乱花"
-date: 2014-08-22 19:17 JST
+date: 2014-08-28 10:31 JST
 top_image_src: "/images/stage/guest-hachioji-odoranka.jpg"
 tags:
 - guest
-published: false
+published: true
 ---
 「踊れ西八夏祭り」の開催に伴い  
 2002年によさこいチーム&quot;八王子踊乱花&quot;が誕生しました。  

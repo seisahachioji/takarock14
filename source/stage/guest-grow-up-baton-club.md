@@ -1,9 +1,9 @@
 ---
 title: "GROW UP BATON CLUB"
-date: 2014-08-22 20:02 JST
+date: 2014-08-28 10:30 JST
 tags:
 - guest
-published: false
+published: true
 ---
 八王子で活動するバトントワリングチーム!
 
