@@ -8,7 +8,7 @@ tags:
 - news
 ---
 当日は高尾駅からバスが運行します。  
-[詳細はこちらの記事をご覧ください。](/articles/2014/08/27/info-bus.html)
+[詳細はこちらの記事をご覧ください。](http://seisahachioji.github.io/takarock14/articles/2014/08/27/info-bus.html)
 
 !READMORE
 
