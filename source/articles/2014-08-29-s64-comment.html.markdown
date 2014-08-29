@@ -1,10 +1,10 @@
 ---
+published: false
 title: "開催にあたって - プランニング"
 date: 2014-08-29 12:31 JST
 author_name: "ぷらんにんぐ"
 tags:
 - about_comment
-published: false
 ---
 これはコメントだよ。
 これはコメントだよ。

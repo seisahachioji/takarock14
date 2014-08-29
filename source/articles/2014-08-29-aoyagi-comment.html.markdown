@@ -1,10 +1,10 @@
 ---
+published: false
 title: "開催にあたって - センター長"
 date: 2014-08-29 12:52 JST
 author_name: "センター長"
 tags:
 - about_comment
-
 ---
 これはコメントだよ。
 これはコメントだよ。
