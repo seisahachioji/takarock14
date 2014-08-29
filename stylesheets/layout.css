@@ -1085,14 +1085,18 @@ body:not([data-scrolled-main]) #nav {
 
 @media (min-width: 1440px) {
   #about #whats_takarock_14 > .container,
-  #about #histories_header > .container {
+  #about #histories_header > .container,
+  #about #comments
+  > .container {
     width: 1440px;
     width: 90rem;
     margin-left: auto;
     margin-right: auto;
   }
   #about #whats_takarock_14 > .container:after,
-  #about #histories_header > .container:after {
+  #about #histories_header > .container:after,
+  #about #comments
+  > .container:after {
     content: " ";
     display: block;
     clear: both;
@@ -1100,14 +1104,18 @@ body:not([data-scrolled-main]) #nav {
 }
 @media (min-width: 1200px) and (max-width: 1439px) {
   #about #whats_takarock_14 > .container,
-  #about #histories_header > .container {
+  #about #histories_header > .container,
+  #about #comments
+  > .container {
     width: 1200px;
     width: 75rem;
     margin-left: auto;
     margin-right: auto;
   }
   #about #whats_takarock_14 > .container:after,
-  #about #histories_header > .container:after {
+  #about #histories_header > .container:after,
+  #about #comments
+  > .container:after {
     content: " ";
     display: block;
     clear: both;
@@ -1115,14 +1123,18 @@ body:not([data-scrolled-main]) #nav {
 }
 @media (min-width: 960px) and (max-width: 1199px) {
   #about #whats_takarock_14 > .container,
-  #about #histories_header > .container {
+  #about #histories_header > .container,
+  #about #comments
+  > .container {
     width: 960px;
     width: 60rem;
     margin-left: auto;
     margin-right: auto;
   }
   #about #whats_takarock_14 > .container:after,
-  #about #histories_header > .container:after {
+  #about #histories_header > .container:after,
+  #about #comments
+  > .container:after {
     content: " ";
     display: block;
     clear: both;
@@ -1130,14 +1142,18 @@ body:not([data-scrolled-main]) #nav {
 }
 @media (min-width: 540px) and (max-width: 959px) {
   #about #whats_takarock_14 > .container,
-  #about #histories_header > .container {
+  #about #histories_header > .container,
+  #about #comments
+  > .container {
     width: 540px;
     width: 33.75rem;
     margin-left: auto;
     margin-right: auto;
   }
   #about #whats_takarock_14 > .container:after,
-  #about #histories_header > .container:after {
+  #about #histories_header > .container:after,
+  #about #comments
+  > .container:after {
     content: " ";
     display: block;
     clear: both;
@@ -1145,14 +1161,18 @@ body:not([data-scrolled-main]) #nav {
 }
 @media (min-width: 0px) and (max-width: 539px) {
   #about #whats_takarock_14 > .container,
-  #about #histories_header > .container {
+  #about #histories_header > .container,
+  #about #comments
+  > .container {
     width: 300px;
     width: 18.75rem;
     margin-left: auto;
     margin-right: auto;
   }
   #about #whats_takarock_14 > .container:after,
-  #about #histories_header > .container:after {
+  #about #histories_header > .container:after,
+  #about #comments
+  > .container:after {
     content: " ";
     display: block;
     clear: both;
@@ -1254,6 +1274,177 @@ body:not([data-scrolled-main]) #nav {
   #about #whats_takarock_14 .circles .circle_image.first, #about #whats_takarock_14 .circles .circle_image.second, #about #whats_takarock_14 .circles .circle_image.third, #about #whats_takarock_14 .circles .circle_image.fourth {
     display: none;
   }
+}
+#about #comments {
+  color: #fff;
+  background-color: #01579b;
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
+}
+#about #comments h1, #about #comments h2, #about #comments h3, #about #comments h4, #about #comments h5, #about #comments h6,
+#about #comments p, #about #comments blockquote {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1440px) {
+  #about #comments .about_comment {
+    width: 1440px;
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 714px;
+    width: 44.625rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem;
+  }
+  #about #comments .about_comment:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  #about #comments .about_comment > .container {
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+  #about #comments .about_comment {
+    width: 1200px;
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 594px;
+    width: 37.125rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem;
+  }
+  #about #comments .about_comment:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  #about #comments .about_comment > .container {
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
+  }
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+  #about #comments .about_comment {
+    width: 960px;
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 474px;
+    width: 29.625rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem;
+  }
+  #about #comments .about_comment:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  #about #comments .about_comment > .container {
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 959px) {
+  #about #comments .about_comment {
+    width: 540px;
+    width: 33.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 534px;
+    width: 33.375rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem;
+  }
+  #about #comments .about_comment:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  #about #comments .about_comment > .container {
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
+  }
+}
+@media (min-width: 0px) and (max-width: 539px) {
+  #about #comments .about_comment {
+    width: 300px;
+    width: 18.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 294px;
+    width: 18.375rem;
+    float: left;
+    margin-left: 3px;
+    margin-left: 0.1875rem;
+    margin-right: 3px;
+    margin-right: 0.1875rem;
+  }
+  #about #comments .about_comment:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  #about #comments .about_comment > .container {
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
+  }
+}
+#about #comments .about_comment .circle_image {
+  border-width: 3px;
+  margin: 0 auto;
+}
+#about #comments .about_comment .circle_image, #about #comments .about_comment .circle_image > .container {
+  width: 6rem;
+  height: 6rem;
+}
+#about #comments .about_comment .circle_image > .container {
+  margin: -3px;
+}
+#about #comments .about_comment h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 48px;
+  line-height: 3rem;
+  text-align: center;
+}
+#about #comments .about_comment .text {
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
 }
 #about #histories {
   color: #fff;
@@ -1366,10 +1557,10 @@ body:not([data-scrolled-main]) #nav {
     clear: both;
   }
   #about #histories .history > .container {
-    padding-left: 90px;
-    padding-left: 5.625rem;
-    padding-right: 90px;
-    padding-right: 5.625rem;
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
   }
 }
 @media (min-width: 1200px) and (max-width: 1439px) {
@@ -1392,10 +1583,10 @@ body:not([data-scrolled-main]) #nav {
     clear: both;
   }
   #about #histories .history > .container {
-    padding-left: 90px;
-    padding-left: 5.625rem;
-    padding-right: 90px;
-    padding-right: 5.625rem;
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
   }
 }
 @media (min-width: 960px) and (max-width: 1199px) {
@@ -1418,10 +1609,10 @@ body:not([data-scrolled-main]) #nav {
     clear: both;
   }
   #about #histories .history > .container {
-    padding-left: 90px;
-    padding-left: 5.625rem;
-    padding-right: 90px;
-    padding-right: 5.625rem;
+    padding-left: 30px;
+    padding-left: 1.875rem;
+    padding-right: 30px;
+    padding-right: 1.875rem;
   }
 }
 @media (min-width: 540px) and (max-width: 959px) {
