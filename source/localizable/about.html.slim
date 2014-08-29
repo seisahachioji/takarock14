@@ -23,6 +23,11 @@ div#about
               = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['second'] }
               = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['third'] }
               = partial "partials/circle_image", :locals => { :image_src => img_src, :href => nil, :classes => ['fourth'] }
+  - if true
+    section#comments
+      div.container
+        - blog('blog').tags['about_comment'].each do |article|
+          = partial "partials/about_comment", :locals => { :article => article }
   - if !current_page.data.is_coming_soon
     section#histories
       div#histories_header

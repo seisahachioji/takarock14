@@ -1,8 +1,9 @@
 ---
-title: "卒業生ナツミバンド"
-date: 2014-08-22 21:08 JST
+title: "Cerise"
+date: 2014-08-29 12:55 JST
 tags:
 - seisa
-published: false
+published: true
 ---
-卒業生のバンド!
+未だ謎に包まれた 卒業生のベーシスト率いるバンドユニット!  
+詳細を待て!

@@ -1,0 +1,11 @@
+- icon_src = '/images/2012/IMGP2023.JPG'
+- if article.data.icon_src
+  icon_src = article.data.icon_src
+article.about_comment
+  div.container
+    header.header
+      = partial "partials/circle_image", :locals => { :image_src => icon_src }
+      h1
+        = article.data.author_name
+      div.text
+        = article.body

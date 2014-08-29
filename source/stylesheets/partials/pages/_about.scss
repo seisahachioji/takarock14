@@ -3,6 +3,7 @@
 }
 #whats_takarock_14,
 #histories_header,
+#comments
 /*#histories .history*/ {
   >.container {
     @include breakpoint($layout-default-breakpoint) {
@@ -96,14 +97,60 @@
 @mixin about-history-item-sizing($layout: default) {
   $max-span:susy-get(columns);
   $span:$max-span / 2;
-  $pad: 3;
+  $pad: 1;
   @if $layout == phablet or $layout == phone {
     $span: $max-span;
-    $pad:1;
+    //$pad:1;
   }
   @include span($span of $max-span);
   >.container {
     @include pad($pad);
+  }
+}
+@mixin about-comment-item-sizing($layout: default) {
+  @include about-history-item-sizing($layout);
+}
+
+#comments {
+  color:$histories-color;
+  background-color:$histories-background-color;
+  @include reset-text;
+  @include padding-leader(1);
+  @include padding-trailer(1);
+  .about_comment {
+    @include breakpoint($layout-default-breakpoint) {
+      @include about-container-sizing(default);
+      @include about-comment-item-sizing(default);
+    }
+    @include susy-breakpoint($layout-square-pc-breakpoint,$layout-square-pc) {
+      @include about-container-sizing(square-pc);
+      @include about-comment-item-sizing(square-pc);
+    }
+    @include susy-breakpoint($layout-tablet-breakpoint,$layout-tablet) {
+      @include about-container-sizing(tablet);
+      @include about-comment-item-sizing(tablet);
+    }
+    @include susy-breakpoint($layout-phablet-breakpoint,$layout-phablet) {
+      @include about-container-sizing(phablet);
+      @include about-comment-item-sizing(phablet);
+    }
+    @include susy-breakpoint($layout-phone-breakpoint,$layout-phone) {
+      @include about-container-sizing(phone);
+      @include about-comment-item-sizing(phone);
+    }
+    .circle_image {
+      @include circle-image-sizing(4);
+      margin:0 auto;
+    }
+    h1 {
+      @include adjust-font-size-to(1.5rem);
+      text-align:center;
+    }
+    .text {
+      //@include pad(1);
+      @include padding-leader(1);
+      @include padding-trailer(1);
+    }
   }
 }
 

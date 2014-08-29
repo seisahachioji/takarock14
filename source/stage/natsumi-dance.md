@@ -1,8 +1,13 @@
 ---
-title: "卒業生ナツミダンス"
-date: 2014-08-22 21:14 JST
+title: "small flat girls"
+date: 2014-08-29 12:55 JST
+top_image_src: "/images/stage/small-flat-girls.jpg"
 tags:
 - seisa
-published: false
+published: true
 ---
-卒業生のダンスユニット!
+「ゆか」「なつみ」の卒業生2人による セクシーダンスユニット!
+
+!READMORE
+
+![](/images/stage/small-flat-girls.jpg)
